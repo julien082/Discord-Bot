@@ -17,14 +17,14 @@ Shoreline : <https://escapefromtarkov-fr.gamepedia.com/Littoral>
 The Lab : <https://escapefromtarkov-fr.gamepedia.com/Labo>
 Woods : <https://escapefromtarkov-fr.gamepedia.com/Bois>
 Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)}; 
-  if (message.content === '!rpk') {  
-    message.channel.send(`https://prnt.sc/xtcs45`)}; 
-  if (message.content === '!rpk') {  
-    message.channel.send(`https://prnt.sc/xtcs45`)}; 
-  if (message.content === '!rpk') {  
-    message.channel.send(`https://prnt.sc/xtcs45`)}; 
-  if (message.content === '!rpk') { 
-    message.channel.send(`https://prnt.sc/xtcs45`)};   
+  if (message.content === '!quest') {  
+    message.channel.send(`https://media.discordapp.net/attachments/776801862778093568/798907782635716658/Objets_de_quetes.jpg?width=1346&height=676`)}; 
+  if (message.content === '!ammo') {  
+    message.channel.send(`https://tarkov.ascheron.dev/`)}; 
+  if (message.content === '!key') {  
+    message.channel.send(`https://prnt.sc/r9dlgs`)}; 
+  if (message.content === '!graphiccard') { 
+    message.channel.send(`https://escapefromtarkov.fandom.com/fr/wiki/Fichier:BTC_time_to_graphics_card_chart.png`)};   
 
 
   if (message.content === '!ak') {  
