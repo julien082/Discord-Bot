@@ -27,13 +27,65 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
     message.channel.send(`https://escapefromtarkov.fandom.com/fr/wiki/Fichier:BTC_time_to_graphics_card_chart.png`)};   
 
 
+  if (message.content === '!m4') {  
+    message.channel.send(`https://prnt.sc/xtcole`)};
+  if (message.content === '!hk') {  
+    message.channel.send(`https://prnt.sc/xtcqqu`)};
+  if (message.content === '!ak') {  
+    message.channel.send(`https://prnt.sc/xtcole`)};
+  if (message.content === '!akm') {  
+    message.channel.send(`https://prnt.sc/xtcole`)};
+  if (message.content === '!ak101') {  
+    message.channel.send(`https://prnt.sc/xtcole`)};
+  if (message.content === '!ak103') {  
+    message.channel.send(`https://prnt.sc/xtcole`)};
   if (message.content === '!ak') {  
     message.channel.send(`https://prnt.sc/xtcole`)};
   if (message.content === '!rpk') {  
+    message.channel.send(`https://prnt.sc/xtcole`)};
+  if (message.content === '!rpk') {  
     message.channel.send(`https://prnt.sc/xtcs45`)}; 
+  if (message.content === '!vepr') {  
+    message.channel.send(`https://prnt.sc/xtcole`)};
+  if (message.content === '!dt') {  
+    message.channel.send(`https://prnt.sc/xtcole`)};
+  if (message.content === '!val') {  
+    message.channel.send(`https://prnt.sc/xtcole`)};
+
+  if (message.content === '!mp5') {  
+    message.channel.send(`https://prnt.sc/xtcole`)};
+  if (message.content === '!mp7') {  
+    message.channel.send(`https://prnt.sc/xtcole`)};
+  if (message.content === '!mpx') {  
+    message.channel.send(`https://prnt.sc/xtcole`)};
+  if (message.content === '!p90') {  
+    message.channel.send(`https://prnt.sc/xtcole`)};
+  if (message.content === '!vector') {  
+    message.channel.send(`https://prnt.sc/xtcole`)};
+
+  if (message.content === '!adar') {  
+    message.channel.send(`https://prnt.sc/xtcp9q`)};
   if (message.content === '!fal') {  
     message.channel.send(`https://prnt.sc/xtcp9q`)};
+  if (message.content === '!sr') {  
+    message.channel.send(`https://prnt.sc/xtcy5r`)};
+  if (message.content === '!tx') {  
+    message.channel.send(`https://prnt.sc/xtcole`)};
+
+
+  if (message.content === '!sks') {  
+    message.channel.send(`https://prnt.sc/xtcole`)};
+  if (message.content === '!svds') {  
+    message.channel.send(`https://prnt.sc/xtcole`)};
   if (message.content === '!m1') {  
+    message.channel.send(`https://prnt.sc/xtcsym`)};
+  if (message.content === '!m700') {  
+    message.channel.send(`https://prnt.sc/xtcrdm`)};
+  if (message.content === '!t5000') {  
+    message.channel.send(`https://prnt.sc/xtcole`)};
+  if (message.content === '!rsass') {  
+    message.channel.send(`https://prnt.sc/xtcole`)};
+  if (message.content === '!mk') {  
     message.channel.send(`https://prnt.sc/xtcsym`)};  
 });
 
