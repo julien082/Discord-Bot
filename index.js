@@ -8,7 +8,7 @@ client.once('ready', () => {
 
 client.on('message', message => {
   if (message.content === '!oui') {  
-    message.channel.send(`https://prnt.sc/xtcole`);
+    message.channel.send(`https://prnt.sc/xtcole`)};
   if (message.content === '!fal') {  
     message.channel.send(`https://prnt.sc/xtcp9q`);
   }
