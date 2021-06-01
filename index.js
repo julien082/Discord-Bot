@@ -93,7 +93,3 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
   if (message.content === '!chauve') {  
     message.channel.send(`https://tenor.com/view/calou-eggs-head-bald-gif-16129954`)}; 
 });
-
-
-
-client.login(process.env.TOKEN)
