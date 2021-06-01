@@ -1,5 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const path = require('path');
+const { CommandoClient } = require('discord.js-commando')
+const client = new CommandoClient({
+    commandPrefix: "!",
+})
 
 
 client.once('ready', () => {
@@ -87,6 +92,15 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
     message.channel.send(`https://prnt.sc/xtcole`)};
   if (message.content === '!mk') {  
     message.channel.send(`https://prnt.sc/xtcsym`)};  
+
+  if (message.content === '!breton') {  
+    message.channel.send(`https://tenor.com/view/linksthesun-breton-bretagne-galettes-gif-7912654`)}; 
+  if (message.content === '!chauve') {  
+    message.channel.send(`https://tenor.com/view/calou-eggs-head-bald-gif-16129954`)}; 
 });
+
+client.registry
+    .registerGroup('music', 'Music')
+    .registerCommandsIn(path.join(_dirname, 'commands'));
 
 client.login(process.env.TOKEN)
