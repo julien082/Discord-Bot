@@ -1,8 +1,5 @@
-const path = require('path');
-const { CommandoClient } = require('discord.js-commando')
-const client = new CommandoClient({
-    commandPrefix: "!",
-})
+const Discord = require('discord.js');
+const client = new Discord.Client();
 
 
 client.once('ready', () => {
@@ -97,8 +94,6 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
     message.channel.send(`https://tenor.com/view/calou-eggs-head-bald-gif-16129954`)}; 
 });
 
-client.registry
-    .registerGroup('music', 'Music')
-    .registerCommandsIn(path.join(__dirname, 'commands'));
+
 
 client.login(process.env.TOKEN)
