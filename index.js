@@ -3,6 +3,12 @@ const client = new Discord.Client();
 const ytdl = require("ytdl-core");
 const queue = new Map();
 const { prefix } = require ('./config.json')
+const commandFiles = fs.readdirSync('./commands/').filter(file => file.endWith('.js'))
+  for(const file of commandFiles){
+      const command = require('./commande/${file}')
+
+      client.commands.set(command.name, command)
+}
 
 client.once('ready', () => {
     console.log('Ready!');
