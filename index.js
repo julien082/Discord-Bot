@@ -99,8 +99,7 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
 /** Commandes */
 
 /** Music */
-voiceChannel.guild.me.edit({mute:false})
-
+/** 
 client.on("message", async message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -211,7 +210,8 @@ function play(guild, song) {
     .on("error", error => console.error(error));
   dispatcher.setVolumeLogarithmic(serverQueue.volume / 5);
   serverQueue.textChannel.send(`Start playing: **${song.title}**`);
-}
+}*/
+
 /** Music */
 
 client.login(process.env.TOKEN)
