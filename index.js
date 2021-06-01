@@ -4,6 +4,7 @@ const ytdl = require("ytdl-core");
 const queue = new Map();
 const { prefix } = require ('./config.json')
 const fs = require('fs');
+const prefix = "!";
 
 client.commands = new Discord.Collection()
 
@@ -22,7 +23,7 @@ client.on('message', message=> {
     const command = args.shift().toLowerCase();
   
     if (command === 'clear') {    
-      
+
       client.commands.get('clear').execute(message, args);
     }
   });  
