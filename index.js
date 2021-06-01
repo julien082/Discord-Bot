@@ -97,7 +97,21 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
     message.channel.send(`https://tenor.com/view/linksthesun-breton-bretagne-galettes-gif-7912654`)}; 
   if (message.content === '!chauve') {  
     message.channel.send(`https://tenor.com/view/calou-eggs-head-bald-gif-16129954`)}; 
+
+    /** clean */
+
+  if(!message.content.startsWith(prefix) || message.author.bot) return
+  const args = message.content.slice(prefix.lenght).split(/ +/)
+  const command = args.shift().toLowerCase();
+
+  if (command === 'clear') {    
+    client.commands.get('clear').execute(message, args);
+  }
+
+     /**clean */
+
 });
+
 /** Commandes */
 
 /** Music */

@@ -13,7 +13,7 @@ module.exports = class PlayCommand extends Command {
                 {
                     key: 'query',
                     prompt: 'Quel musique veux tu lire?',
-                    type: 'string'
+                    type: 'string',
                 }
             ]
     });
