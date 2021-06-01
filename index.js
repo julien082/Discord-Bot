@@ -99,17 +99,6 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
 /** Commandes */
 
 /** Music */
-client.once("ready", () => {
-  console.log("Ready!");
-});
-
-client.once("reconnecting", () => {
-  console.log("Reconnecting!");
-});
-
-client.once("disconnect", () => {
-  console.log("Disconnect!");
-});
 
 client.on("message", async message => {
   if (message.author.bot) return;
@@ -117,13 +106,13 @@ client.on("message", async message => {
 
   const serverQueue = queue.get(message.guild.id);
 
-  if (message.content.startsWith(`!lire`)) {
+  if (message.content.startsWith(`!play`)) {
     execute(message, serverQueue);
     return;
-  } else if (message.content.startsWith(`!passer`)) {
+  } else if (message.content.startsWith(`!skip`)) {
     skip(message, serverQueue);
     return;
-  } else if (message.content.startsWith(`!stoop`)) {
+  } else if (message.content.startsWith(`!stop`)) {
     stop(message, serverQueue);
     return;
   } else {
