@@ -9,7 +9,7 @@ module.exports = {
         if(args[0] < 1) return message.reply("Au moins 1 message con")
 
         await message.channel.messages.fetch({limit: args[0]}).then(messages => {
-            message.channel.bulkDelete(message);
+            message.channel.bulkDelete(messages);
         })
     }
 }
