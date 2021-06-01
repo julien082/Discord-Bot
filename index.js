@@ -99,7 +99,7 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
 /** Commandes */
 
 /** Music */
-voiceChannel.guild.me.edit({mute:true})
+voiceChannel.guild.me.edit({mute:false})
 
 client.on("message", async message => {
   if (message.author.bot) return;
