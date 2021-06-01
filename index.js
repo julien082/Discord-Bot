@@ -99,6 +99,6 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
 
 client.registry
     .registerGroup('music', 'Music')
-    .registerCommandsIn(path.join(_dirname, 'commands'));
+    .registerCommandsIn(path.join(__dirname, 'commands'));
 
 client.login(process.env.TOKEN)
