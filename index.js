@@ -16,7 +16,7 @@ const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith(
 
 /** clear */
 client.on('message', message => {
-    if(!message.content.startsWith(prefix) || message.author.bot) return;
+    if(!message.content.startsWith(prefix)) return;
 
     const args = message.content.slice(prefix.lenght).split(/ +/);
     const command = args.shift().toLowerCase();
@@ -25,7 +25,7 @@ client.on('message', message => {
 
       client.commands.get('clear').execute(message, args);
 
-    } else if (command ==='ping'){
+    } else if (command === 'ping'){
         message.channel.send('pong')
     }
   });  
