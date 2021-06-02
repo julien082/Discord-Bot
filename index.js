@@ -123,6 +123,18 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
       message.channel.send('pong!')
     }  
 
+  if (message.content.startsWith("!clear")){
+    message.delete();
+      if(message.member.hasPermission('ADMINISTRATOR')){
+        let args = message.content.trim().split(/ +/g);
+        if(args[1]){
+          if(!isNaN(args[1]) && args[1] >= 1 && args [1] <= 10){
+            message.channel.bulkDelete(args[1])
+          }
+        }
+      }
+  }
+
 
 });
 
