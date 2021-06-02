@@ -108,7 +108,7 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
         if(args[1]){
           if(!isNaN(args[1]) && args[1] >= 1 && args [1] <= 10){
             message.channel.bulkDelete(args[1])
-            message.channel.send('${args[1]} messages supprimés')
+            message.channel.send(`${args[1]} messages supprimés`)
           }
           else{
             message.channel.send('Entre 1 et 10 messages')
@@ -130,7 +130,7 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
 /** Commandes */
 
 /** Music */
-/** 
+/**
 client.on("message", async message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
