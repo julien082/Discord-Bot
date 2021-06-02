@@ -2,22 +2,8 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const ytdl = require("ytdl-core");
 const queue = new Map();
-const prefix = '!';
-const fs = require('fs');
+const { prefix } = require ('./config.json');
 
-client.commands = new Discord.Collection();
-
-const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'))
-  for(const file of commandFiles){
-      const command = require(`./commands/${file}`)
-
-      client.commands.set(command.name, command)
-}
-
-/** clear */
-
-
-/**clear */
 
 client.once('ready', () => {
     console.log('Ready!');
@@ -113,16 +99,8 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
   if (message.content === '!chauve') {  
     message.channel.send(`https://tenor.com/view/calou-eggs-head-bald-gif-16129954`)}; 
 
-
-  if(!message.content.startsWith(prefix) || message.author.bot) return;
-
-    const args = message.content.slice(prefix.lenght).split(/ +/);
-    const command = args.shift().toLowerCase();
+/** Clear */
   
-  if (command === 'ping') {    
-      message.channel.send('pong!')
-    }  
-
   if (message.content.startsWith("!clear")){
     message.delete();
       if(message.member.hasPermission('ADMINISTRATOR')){
@@ -134,7 +112,8 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
         }
       }
   }
-
+  
+/** Clear  */
 
 });
 
