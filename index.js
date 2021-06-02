@@ -103,16 +103,26 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
   
   if (message.content.startsWith("!clear")){
     message.delete();
-      if(message.member.hasPermission('ADMINISTRATOR')){
+      if(message.member.hasPermission('MANAGE_CHANNELS')){
         let args = message.content.trim().split(/ +/g);
         if(args[1]){
           if(!isNaN(args[1]) && args[1] >= 1 && args [1] <= 10){
             message.channel.bulkDelete(args[1])
           }
+          else{
+            message.channel.send('Entre 1 et 10 messages')
+          }
+        }
+          else{
+            message.channel.send('Met un chiffre après clear con')
+          }
+        }
+          else{
+            message.channel.send('Ta pas le dtoit de supprimer les messages')
+          }
         }
       }
-  }
-  
+
 /** Clear  */
 
 });
