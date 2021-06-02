@@ -26,8 +26,7 @@ client.on('message', message=> {
       client.commands.get('clear').execute(message, args);
 
     if (command ==='ping')
-
-      client.commands.get('ping').execute(message, args);
+      message.channel.send('pong')
     }
   });  
 /**clear */
