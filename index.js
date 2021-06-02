@@ -2,8 +2,8 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const ytdl = require("ytdl-core");
 const queue = new Map();
+const { prefix } = require ('./config.json')
 const fs = require('fs');
-const prefix = '!';
 
 client.commands = new Discord.Collection()
 
