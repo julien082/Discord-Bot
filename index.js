@@ -16,7 +16,7 @@ const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith(
 
 /** clear */
 client.on('message', message=> {
-    if(!message.content.startsWith(prefix) || message.author.bot) return;
+    if(!message.content.startsWith('!') || message.author.bot) return;
 
     const args = message.content.slice(prefix.lenght).split(/ +/);
     const command = args.shift().toLowerCase();
