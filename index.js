@@ -121,7 +121,6 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
             message.channel.send('Ta pas le dtoit de supprimer les messages')
           }
         }
-      }
 
 /** Clear  */
 
