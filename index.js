@@ -46,7 +46,7 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
   if (message.content === '!ak101') {  
     message.channel.send(`https://prnt.sc/xtcmwd`)};
   if (message.content === '!ak103') {  
-    message.channel.send(`https://prnt.sc/xtcole`)};
+    message.channel.send(`https://prnt.sc/13p32ym`)};
   if (message.content === '!rpk') {  
     message.channel.send(`https://prnt.sc/xtcs45`)};
   if (message.content === '!rpk') {  
@@ -129,8 +129,6 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
 
 /** Commandes */
 
-/** Music */
-/**
 client.on("message", async message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -241,7 +239,7 @@ function play(guild, song) {
     .on("error", error => console.error(error));
   dispatcher.setVolumeLogarithmic(serverQueue.volume / 5);
   serverQueue.textChannel.send(`Start playing: **${song.title}**`);
-}*/
+}
 
 /** Music */
 
