@@ -11,11 +11,9 @@ const client = new CommandoClient({
 
 client.registry
   .registerDefaultTypes()
-  .registerGroups([
-		['first', 'Your First Command Group'],
-		['second', 'Your Second Command Group'],])
-	.registerDefaultGroups()
-	.registerDefaultCommands('music', 'Music')
+  .registerDefaultGroups()
+	.registerDefaultCommands()
+  .registerGroups('music', 'Music')
 	.registerCommandsIn(path.join(__dirname, 'commands', 'music'));
 
 
