@@ -6,6 +6,7 @@ module.exports = class PlayCommand extends Command {
     constructor(client) {
         super(client, {
             name: 'lire',
+            aliases: ['l'],
             group: 'music',
             memberName: 'lire',
             description: 'Lit une musique Youtube',
