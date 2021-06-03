@@ -3,6 +3,16 @@ const client = new Discord.Client();
 const ytdl = require("ytdl-core");
 const queue = new Map();
 const { prefix } = require ('./config.json');
+const path = require('path');
+const { CommandoClient } = require('discord.js-commando');
+
+
+client.registry
+    .registryDefaultTypes()
+    .registerDefaultGroups()
+    .registerDefaultComands()
+    .registerGroup('music', 'Music')
+    .registerCommandsIn(path.join(__dirname, 'commands'));
 
 
 client.once('ready', () => {
@@ -127,8 +137,7 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
 
 });
 
-/** Commandes */
-
+/**
 client.on("message", async message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -240,7 +249,7 @@ function play(guild, song) {
   dispatcher.setVolumeLogarithmic(serverQueue.volume / 5);
   serverQueue.textChannel.send(`Start playing: **${song.title}**`);
 }
-
+*/
 /** Music */
 
 client.login(process.env.TOKEN)
