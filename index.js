@@ -3,15 +3,16 @@ const client = new Discord.Client();
 const ytdl = require("ytdl-core");
 const queue = new Map();
 const { prefix } = require ('./config.json');
-const { CommandoClient } = require('discord.js-commando');
 
+
+
+
+/**
+const { CommandoClient } = require('discord.js-commando');
 const client = new CommandoClient({
     commandPrefix:'!',
     owner: '300696920375164929'
 });
-
-/**
-
 const path = require('path');
 
 client.registry
