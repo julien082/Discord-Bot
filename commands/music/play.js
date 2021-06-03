@@ -38,6 +38,6 @@ module.exports = class PlayCommand extends Command {
      */
 
     async runVideo(message, connection, video) {
-        connection.play( await ytld(video, { filter: 'audioonly', mute: 'false' }));
+        connection.play( await ytld(video, { filter: 'audioonly', mute: 'true' }));
     }
 }
