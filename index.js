@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const client = new CommandoClient();
 const ytdl = require("ytdl-core");
 const queue = new Map();
 const { prefix } = require ('./config.json');
