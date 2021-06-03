@@ -1,21 +1,8 @@
 const Discord = require('discord.js');
+const client = new Discord.Client();
 const ytdl = require("ytdl-core");
 const queue = new Map();
 const { prefix } = require ('./config.json');
-const path = require('path');
-const { CommandoClient } = require('discord.js-commando');
-
-const client = new CommandoClient({
-  commandPrefix: '!',
-  owner: '300696920375164929'
-})
-
-client.registry
-    .registryDefaultTypes()
-    .registerDefaultGroups()
-    .registerDefaultComands()
-    .registerGroup('music', 'Music')
-    .registerCommandsIn(path.join(__dirname, 'commands'));
 
 
 client.once('ready', () => {
