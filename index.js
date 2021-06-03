@@ -15,7 +15,7 @@ client.registry
 		['first', 'Your First Command Group'],
 		['second', 'Your Second Command Group'],])
 	.registerDefaultGroups()
-	.registerDefaultCommands()
+	.registerDefaultCommands('music', 'Music')
 	.registerCommandsIn(path.join(__dirname, 'commands', 'music'));
 
 
