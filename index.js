@@ -112,6 +112,9 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
   if (message.content === '!mk') {  
     message.channel.send(`https://prnt.sc/xtcsym`)};  
 
+  if (message.content === '!dododex') {  
+    message.channel.send(`https://www.dododex.com/`)}; 
+
   if (message.content === '!breton') {  
     message.channel.send(`https://tenor.com/view/linksthesun-breton-bretagne-galettes-gif-7912654`)}; 
   if (message.content === '!chauve') {  
