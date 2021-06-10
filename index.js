@@ -122,7 +122,7 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
 
 /** Clear */
   
-  if (message.content.startsWith("!clear")){
+  if (message.content.startsWith("!clean")){
     message.delete();
       if(message.member.hasPermission('MANAGE_CHANNELS')){
         let args = message.content.trim().split(/ +/g);
