@@ -132,15 +132,15 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
             message.channel.send(`${args[1]} messages supprimés`)
           }
           else{
-            message.channel.send('Entre 1 et 10 messages BLYAT!')
+            message.channel.send('Entre 1 et 10 messages BLYAT !')
           }
         }
           else{
-            message.channel.send('Met un chiffre après clear con DAVAÏ!')
+            message.channel.send('Met un chiffre après clear con DAVAÏ !')
           }
         }
           else{
-            message.channel.send('Ta pas le dtoit de supprimer les messages KURWA!')
+            message.channel.send('Ta pas le dtoit de supprimer les messages KURWA !')
           }
         }
 
