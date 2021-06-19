@@ -44,7 +44,7 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
   if (message.content === '!ammo') {  
     message.channel.send(`https://tarkov.ascheron.dev/`)}; 
   if (message.content === '!key') {  
-    message.channel.send(`https://prnt.sc/r9dlgs`)}; 
+    message.channel.send(`https://prnt.sc/r9dlgs https://prnt.sc/10o12ur`)}; 
    if (message.content === '!ledx') {  
     message.channel.send(`104 Ouest | 205 Ouest | 301 Ouest | 107 Est | 222-226 Est | 313-314 Est | Emercom | Blue Keycard | Green Keycard`)};
   if (message.content === '!graphic') { 
