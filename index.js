@@ -120,6 +120,10 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
   if (message.content === '!chauve') {  
     message.channel.send(`https://tenor.com/view/calou-eggs-head-bald-gif-16129954`)}; 
 
+  if (message.content === '!annie') {
+    message.channel.send('https://www.probuilds.net/champions/details/1')
+  }
+ 
 /** Clear */
   
   if (message.content.startsWith("!clear")){
