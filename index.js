@@ -67,8 +67,6 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
     message.channel.send(`https://prnt.sc/13p32ym`)};
   if (message.content === '!rpk') {  
     message.channel.send(`https://prnt.sc/xtcs45`)};
-  if (message.content === '!rpk') {  
-    message.channel.send(`https://prnt.sc/xtcs45`)}; 
   if (message.content === '!vepr') {  
     message.channel.send(`https://prnt.sc/q78tlr`)};
   if (message.content === '!dt') {  
@@ -110,7 +108,7 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
   if (message.content === '!rsass') {  
     message.channel.send(`https://prnt.sc/xtcw7j`)};
   if (message.content === '!mk') {  
-    message.channel.send(`https://prnt.sc/xtcsym`)};  
+    message.channel.send(`https://prnt.sc/17idxmr`)};  
 
   if (message.content === '!dododex') {  
     message.channel.send(`https://www.dododex.com/`)}; 
