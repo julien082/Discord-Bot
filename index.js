@@ -49,7 +49,8 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
     message.channel.send(`104 Ouest | 205 Ouest | 301 Ouest | 107 Est | 222-226 Est | 313-314 Est | Emercom | Blue Keycard | Green Keycard`)};
   if (message.content === '!graphic') { 
     message.channel.send(`https://escapefromtarkov.fandom.com/fr/wiki/Fichier:BTC_time_to_graphics_card_chart.png`)};   
-  
+  if (message.content === '!scav') { 
+    message.channel.send(`https://cdn.discordapp.com/attachments/776801862778093568/860476889650561034/EFT_Scav_Code_FR.png  ● La réputation chez Fence ne diminuera désormais pas si le joueur a tué un Scav qui a attaqué en premier.`)};   
 
   if (message.content === '!m4') {  
     message.channel.send(`https://prnt.sc/xtckq4 https://prnt.sc/xtclh5`)};
