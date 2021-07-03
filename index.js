@@ -28,9 +28,9 @@ client.once('ready', () => {
 client.on('message', message => {
   if (message.content === '!help') {  
     message.channel.send(`Comandes: !clear (supprimer messages)
-    Tarkov: !map, !quest, !ammo, !key, !ledx, !graphic, !scav
-    Armes: 
-    Assaut: !ak`)};
+Tarkov: !map, !quest, !ammo, !key, !ledx, !graphic, !scav
+Armes: 
+Assaut: !ak`)};
   if (message.content === '!map') {  
     message.channel.send(`Interactive : <https://www.gamemaps.co.uk/game/tarkov/maps/glory4life_updated_feb_2021>
 
