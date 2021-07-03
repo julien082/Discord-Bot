@@ -3,7 +3,6 @@ const client = new Discord.Client();
 const ytdl = require("ytdl-core");
 const queue = new Map();
 const { prefix } = require ('./config.json');
-const {p} = require('./style.css')
 
 /**
 const { CommandoClient } = require('discord.js-commando');
