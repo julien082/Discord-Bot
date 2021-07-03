@@ -28,9 +28,12 @@ client.once('ready', () => {
 client.on('message', message => {
   if (message.content === '!help') {  
     message.channel.send(`Comandes: !clear (supprimer messages)
-Tarkov: !map, !quest, !ammo, !key, !ledx, !graphic, !scav
+Tarkov: !map, !quest, !ammo, !key, !ledx, !graphic, !scav.
 Armes: 
-Assaut: !ak`)};
+Assauts: !m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.
+Mitraillettes: !mpx, !mp5, !mp7, !p90, !vector.
+Coup par coup: !adar, !fal, !sr, !tx.
+Snipes: !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.`)};
   if (message.content === '!map') {  
     message.channel.send(`Interactive : <https://www.gamemaps.co.uk/game/tarkov/maps/glory4life_updated_feb_2021>
 
