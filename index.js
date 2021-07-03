@@ -29,7 +29,7 @@ client.on('message', message => {
   if (message.content === '!help') {  
     message.channel.send(`● Comandes: 
 !clear (supprimer messages)
-● Tarkov : !map, !quest, !ammo, !key, !ledx, !graphic, !scav.
+'''css● Tarkov''' : !map, !quest, !ammo, !key, !ledx, !graphic, !scav.
 ● Armes : 
 - Assauts : !m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.
 - Mitraillettes : !mpx, !mp5, !mp7, !p90, !vector.
