@@ -145,7 +145,7 @@ if (message.content === '!testt') {
     { name: '<:tarkov:861045088900743228>  **Tarkov**', value: '!map, !quest, !ammo, !key, !ledx, !graphic, !scav.'},
     { name: '<:assaut:861054281276719125>  **Assauts** :' , value: '!m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.'}
   )
-  .setThumbnail(<img src= {Logo}/>)
+  .setThumbnail({Logo})
   
   return message.channel.send(embed)
   }
