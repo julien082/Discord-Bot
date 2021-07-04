@@ -151,35 +151,6 @@ if (message.content === '!testt') {
 
 
 
-module.exports = async (message) => {
-  if (message.content === '!teest') {  
-    message.channel.send({
-        "username": "",
-        "avatar_url": "",
-        "content": "",
-        "embeds": [
-          {
-            "title": "ljjkljk",
-            "color": 8454016,
-            "description": "jkljklhjkhjkhjkjk",
-            "timestamp": "",
-            "author": {
-              "name": "hkhk",
-              "url": "jhk"
-            },
-            "image": {},
-            "thumbnail": {},
-            "footer": {
-              "text": "kjkhj"
-            },
-            "fields": []
-          }
-        ],
-        "components": []
-      }
- )
-};
-}
 
 
 
