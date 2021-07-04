@@ -4,7 +4,7 @@ const client = new Discord.Client();
 const ytdl = require("ytdl-core");
 const queue = new Map();
 const { prefix } = require ('./config.json');
-const Logo = require ('./Images/Killa.jpg')
+const Logo = require ('../Images/Killa.jpg')
 
 
 /**
@@ -152,7 +152,7 @@ if (message.content === '!testt') {
 
 
 
-
+module.exports = async (message) => {
   if (message.content === '!teest') {  
     message.channel.send({
         "username": "",
@@ -180,8 +180,7 @@ if (message.content === '!testt') {
       }
  )
 };
-
-
+}
 
 
 
