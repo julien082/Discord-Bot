@@ -1,4 +1,5 @@
 const fs = require("fs")
+const { TOKEN, PREFIX } = require ('./config');
 const Discord = require('discord.js');
 const {Client, Collection} = require('discord.js');
 const client = new Client();
@@ -7,7 +8,7 @@ client.commands = new Collection()
 const { downloadFromInfo } = require('ytdl-core');
 const ytdl = require("ytdl-core");
 const queue = new Map();
-const { PREFIX } = require ('./config.json');
+
 
 
 /**
@@ -95,6 +96,7 @@ const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('
 for (const file of commandFiles) {
   const command = require(`./commands/${file}`)
   client.commands.set(command.name, command)
+  console.log(`client.commands`)
 }
 
 
@@ -479,4 +481,4 @@ function play(guild, song) {
 */
 /** Music */
 
-client.login(process.env.TOKEN)
+client.login(TOKEN)
