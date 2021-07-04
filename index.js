@@ -123,7 +123,7 @@ client.on('message', message => {
 
 
 if (message.content === '!testt') {  
-  (`>>> <a:commandes:861037555301220413>   **Commandes** : !clear (supprimer messages).
+  (`>>> <a:commandes:861037555301220413>   **Commandes** : !clear .
   
   <:tarkov:861045088900743228>   **Tarkov** : !map, !quest, !ammo, !key, !ledx, !graphic, !scav.
    
@@ -145,9 +145,9 @@ if (message.content === '!testt') {
   .attachFiles(diceImg)
   .setThumbnail('attachment://killaa.jpg')
   .addFields(
-    { name: '!clear ', inline: false },
+    { name: '!clear ', value: '(supprimer messages)', inline: true },
     { name: '<:tarkov:861045088900743228>  **Tarkov** :', value: '!map, !quest, !ammo, !key, !ledx, !graphic, !scav.', inline: false },
-    { name: '●**Armes** :', inline: false},
+    { name: '● **Armes** :', inline: false},
     { name: '<:assaut:861054281276719125>  **Assauts** :' , value: '!m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.', inline: false },
     { name: '<:weapon:861047801239830539>  **Mitraillettes** :', value: '!mpx, !mp5, !mp7, !p90, !vector.', inline: false },
     { name: '<:rifle:861050143813926943>  **Coup par coup** :', value: '!adar, !fal, !sr, !tx.', inline: false },
