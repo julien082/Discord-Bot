@@ -28,19 +28,19 @@ client.once('ready', () => {
 /** Commandes */
 client.on('message', message => {
   if (message.content === '!help') {  
-    message.channel.send(`>>> <a:commandes:861037555301220413>   **Commandes** : !clear (supprimer messages).
+    message.channel.send(`>>><a:commandes:861037555301220413>   **Commandes** : !clear (supprimer messages).
 
-   <:tarkov:861045088900743228>   **Tarkov** : !map, !quest, !ammo, !key, !ledx, !graphic, !scav.
+ <:tarkov:861045088900743228>   **Tarkov** : !map, !quest, !ammo, !key, !ledx, !graphic, !scav.
    
-  ● **Armes** : 
+● **Armes** : 
    
-  - <:assaut:861049272040030228>   **Assauts** : !m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.
+- <:assaut:861049272040030228>   **Assauts** : !m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.
    
-  - <:weapon:861047801239830539>   **Mitraillettes** : !mpx, !mp5, !mp7, !p90, !vector.
+- <:weapon:861047801239830539>   **Mitraillettes** : !mpx, !mp5, !mp7, !p90, !vector.
    
-  - **Coup par coup** : !adar, !fal, !sr, !tx.
+- **Coup par coup** : !adar, !fal, !sr, !tx.
    
-  - <:sniper:861047828607270922>   **Snipes** : !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.`)};
+- <:sniper:861047828607270922>   **Snipes** : !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.`)};
   if (message.content === '!map') {  
     message.channel.send(`Interactive : <https://www.gamemaps.co.uk/game/tarkov/maps/glory4life_updated_feb_2021>
 
