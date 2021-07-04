@@ -1,2 +1,0 @@
-exports.TOKEN = "ODQ4NzA4MDk0NDIyNTQ4NDgy.YLQjAQ.GcO1DrtgpOM-GPB9BOwDRk5yuFc"
-exports.PREFIX = "!"
