@@ -137,8 +137,12 @@ if (message.content === '!testt') {
    
   - <:sniper:861047828607270922>  **Snipes** : !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.`);
   const embed = new Discord.MessageEmbed()
-  .setColor('##9EA440')
-  .setTitle('ERREUR')
+  .setColor('#9EA440')
+  .setTitle('Commandes: ')
+  .addFields(
+    { name: '- <:assaut:861054281276719125>  **Assauts** :' , value: '!m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.', inline: true }
+  )
+  .setThumbnail('https://prnt.sc/18fi01h')
   
   return message.channel.send(embed)
   }
