@@ -81,7 +81,7 @@ module.exports = async (msg, name) => {
     encoding: 'buffer',
   })
 
-  if (message.content === '!oui') message.channel.send(new MessageAttachment(images, `${name}.jpeg`))
+  return msg.channel.send(new MessageAttachment(images, `${name}.jpeg`))
 }
 
 
