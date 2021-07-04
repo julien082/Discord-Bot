@@ -34,7 +34,7 @@ client.on('message', message => {
    
 ● **Armes** : 
    
-- <:assaut:861049272040030228>   **Assauts** : !m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.
+- <:assaut:861054281276719125>   **Assauts** : !m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.
    
 - <:weapon:861047801239830539>   **Mitraillettes** : !mpx, !mp5, !mp7, !p90, !vector.
    
