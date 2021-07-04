@@ -109,13 +109,6 @@ client.once('ready', () => {
 /** Commandes */
 client.on('message', message => {
 
-  if(!message.content.startsWith(PREFIX) || message.author.bot) return
-  const args = message.content.slice(PREFIX.length).split(/ +/)
-  const command = args.shift().toLowerCase()
-
-  if (!client.commands.has(command)) return
-  client.commands.get(command).execute(message, args)
-
   if (message.content === '!help') {  
     message.channel.send(`>>> <a:commandes:861037555301220413>   **Commandes** : !clear (supprimer messages).
 
@@ -178,67 +171,6 @@ if (message.content === `${PREFIX}testt`) {
     )
     return message.channel.send(embed)
   }
-
-module.exports = async (message) => {
-  if (message.content === '!teest') {  
-    message.channel.send({
-        "username": "",
-        "avatar_url": "",
-        "content": "",
-        "embeds": [
-          {
-            "title": "ljjkljk",
-            "color": 8454016,
-            "description": "jkljklhjkhjkhjkjk",
-            "timestamp": "",
-            "author": {
-              "name": "hkhk",
-              "url": "jhk"
-            },
-            "image": {},
-            "thumbnail": {},
-            "footer": {
-              "text": "kjkhj"
-            },
-            "fields": []
-          }
-        ],
-        "components": []
-      }
- )
-};
-}
-
-
-
-const embed = {
-  "title": "A Title" ,
-  "color": 0xF96221,
-  "thumbnail": {
-    "url": "attachment://image.png"
-  },
-  "fields": [
-    {
-      "name": "Field 1:",
-      "value": "One",
-      "inline": false
-    },
-    {
-      "name": "Field 2:",
-      "value": "Two",
-      "inline": true,
-    },
-    {
-      "name":"Field 3:",
-      "value":"Three",
-      "inline": true
-    },
-  ],
-  "footer": {
-    "text":"Footer text"
-  }
-};
-
 
 
 /**
