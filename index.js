@@ -4,6 +4,7 @@ const client = new Discord.Client();
 const ytdl = require("ytdl-core");
 const queue = new Map();
 const { prefix } = require ('./config.json');
+import Logo from "./Images/killa"
 
 
 /**
@@ -140,11 +141,11 @@ if (message.content === '!testt') {
   .setColor('#9EA440')
   .setTitle('<a:commandes:861037555301220413>  **Commandes :** ')
   .addFields(
-    { name: '!clear (supprimer les messages)', inline: true},
-    { name: '<:tarkov:861045088900743228>  **Tarkov**', value: '!map, !quest, !ammo, !key, !ledx, !graphic, !scav.', inline: true},
-    { name: '<:assaut:861054281276719125>  **Assauts** :' , value: '!m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.', inline: true }
+    { name: '!clear (supprimer les messages)',value:''},
+    { name: '<:tarkov:861045088900743228>  **Tarkov**', value: '!map, !quest, !ammo, !key, !ledx, !graphic, !scav.'},
+    { name: '<:assaut:861054281276719125>  **Assauts** :' , value: '!m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.'}
   )
-  .setThumbnail('https://prnt.sc/18fi01h')
+  .setThumbnail(<img src= {Logo}/>)
   
   return message.channel.send(embed)
   }
