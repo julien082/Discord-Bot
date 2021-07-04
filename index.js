@@ -146,14 +146,11 @@ if (message.content === '!testt') {
 
 
 
-
   if (message.content === '!teest') {  
     message.channel.send({
       "username": "Webhook",
       "avatar_url": "https://i.imgur.com/4M34hi2.png",
       "content": "Text message. Up to 2000 characters.",
-      "embeds": [
-        {
           "author": {
             "name": "Birdie♫",
             "url": "https://www.reddit.com/r/cats/",
@@ -194,8 +191,6 @@ if (message.content === '!testt') {
             "icon_url": "https://i.imgur.com/fKL31aD.jpg"
           }
         }
-      ]
-    }
  )
 };
 
