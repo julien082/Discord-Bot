@@ -138,12 +138,12 @@ if (message.content === '!testt') {
   - <:sniper:861047828607270922>  **Snipes** : !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.`);
 
   const {MessageAttachment} = require ('discord.js')
-  const diceImg = new MessageAttachment ('./Images/kikiki.jpg')
+  const diceImg = new MessageAttachment ('./Images/kikiki.png')
   const embed = new Discord.MessageEmbed()
   .setColor("#9EA440")
   .setTitle('<a:commandes:861037555301220413>  **Commandes :** ')
   .attachFiles(diceImg)
-  .setImage('attachment://kikiki.jpg')
+  .setImage('attachment://kikiki.png')
   .addField('**!clear** (supprimer messages')
   .addFields(
     { name: '!clear ', value: '(supprimer messages)', inline: true },
