@@ -145,9 +145,23 @@ if (message.content === '!testt') {
 
 
 
-
-
-
+if (message.content === '!teest') {  
+    message.channel.send({
+    "content": "yuiyuiyiniiu",
+    "embeds": [
+      {
+        "title": "jaifm",
+        "description": "hggj",
+        "color": 14825271,
+        "fields": [
+          {
+            "name": "ljkl",
+            "value": "lkjljkl"
+          }
+        ]
+      }
+    ]
+  }
 
 
 
