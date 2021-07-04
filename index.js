@@ -30,7 +30,7 @@ client.on('message', message => {
   if (message.content === '!help') {  
     message.channel.send(`>>> <a:commandes:861037555301220413>   **Comandes** : !clear (supprimer messages).
 
-<:662711774306500638:861035375866413058>   **Tarkov** : !map, !quest, !ammo, !key, !ledx, !graphic, !scav.
+ <:662711774306500638:861035375866413058>   **Tarkov** : !map, !quest, !ammo, !key, !ledx, !graphic, !scav.
 
 ● **Armes** : 
 
