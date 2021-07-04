@@ -140,13 +140,13 @@ if (message.content === '!testt') {
   const {MessageAttachment} = require ('discord.js')
   const diceImg = new MessageAttachment ('./Images/kikiki.png')
   const embed = new Discord.MessageEmbed()
-  .setColor("#010101")
-  .setTitle('<a:commandes:861037555301220413>  **Commandes :** \u200b')
+  .setColor("#FDFEFE")
+  .setTitle('<a:commandes:861037555301220413>  **Commandes :**')
   .attachFiles(diceImg)
   .setImage('attachment://kikiki.png')
   .addField('**!clear** (supprimer messages)')
   .addFields(
-    { name: '!clear (supprimer messages)', value: '\u200b', inline: true },
+    { name: '\u200b**!clear** (supprimer messages)', value: '\u200b', inline: true },
     { name: '<:tarkov:861045088900743228>  **Tarkov** :', value: '!map, !quest, !ammo, !key, !ledx, !graphic, !scav.', inline: false },
     { name: '\u200b', value:'● **Armes** :', inline: false},
     { name: '<:assaut:861054281276719125>  **Assauts** :' , value: '  !m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.', inline: false },
