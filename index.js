@@ -109,6 +109,14 @@ client.once('ready', () => {
 /** Commandes */
 client.on('message', message => {
 
+  if(!message.content.startsWith(PREFIX) || message.author.bot) return;
+  const args = message.content.slice(PREFIX.length).split(/ +/)
+  const command = args.shift().toLowerCase()
+
+  if (!client.commands.has(command)) return
+  client.commands.get(command).execute(message, args)
+
+
   if (message.content === '!help') {  
     message.channel.send(`>>> <a:commandes:861037555301220413>   **Commandes** : !clear (supprimer messages).
 
@@ -137,8 +145,7 @@ client.on('message', message => {
 
 
 
-if (message.content === `${PREFIX}testt`) {  
-  (`>>> <a:commandes:861037555301220413>   **Commandes** : !clear .
+if (message.content === '!testt'){ message.channel.send (`>>> <a:commandes:861037555301220413>   **Commandes** : !clear .
   
   <:tarkov:861045088900743228>   **Tarkov** : !map, !quest, !ammo, !key, !ledx, !graphic, !scav.
    
@@ -150,7 +157,7 @@ if (message.content === `${PREFIX}testt`) {
    
   - <:rifle:861050143813926943>  **Coup par coup** : !adar, !fal, !sr, !tx.
    
-  - <:sniper:861047828607270922>  **Snipes** : !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.`);
+  - <:sniper:861047828607270922>  **Snipes** : !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.`)
 
   const {MessageAttachment} = require ('discord.js')
   const diceImg = new MessageAttachment ('./Images/kikiki.png')
@@ -170,8 +177,9 @@ if (message.content === `${PREFIX}testt`) {
       { name: '<:sniper:861047828607270922>  **Snipes** :', value: '  !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.', inline: false },
     )
     return message.channel.send(embed)
+    }
   }
-
+)
 
 /**
 
@@ -272,9 +280,9 @@ Update:
 
 */
 
-/** Clear */
+/** Clear
   
-  if (message.content.startsWith("!clear")){
+  if (message.content === '"!clear"'){
     message.delete();
       if(message.member.hasPermission('MANAGE_CHANNELS')){
         let args = message.content.trim().split(/ +/g);
@@ -297,8 +305,6 @@ Update:
         }
 
 /** Clear  */
-
-});
 
 /**
 client.on("message", async message => {
