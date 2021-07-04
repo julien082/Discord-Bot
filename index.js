@@ -144,7 +144,6 @@ if (message.content === '!testt') {
   .setTitle('<a:commandes:861037555301220413>  **Commandes :**')
   .attachFiles(diceImg)
   .setImage('attachment://kikiki.png')
-  .addField('**!clear** (supprimer messages)')
   .addFields(
     { name: '\u200b**!clear** (supprimer messages)', value: '\u200b', inline: true },
     { name: '<:tarkov:861045088900743228>  **Tarkov** :', value: '!map, !quest, !ammo, !key, !ledx, !graphic, !scav.', inline: false },
