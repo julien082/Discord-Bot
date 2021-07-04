@@ -4,7 +4,7 @@ const client = new Discord.Client();
 const ytdl = require("ytdl-core");
 const queue = new Map();
 const { prefix } = require ('./config.json');
-const Logo = require ('../Images/Killa.jpg')
+const Logo = require ('.Killa.jpg')
 
 
 /**
