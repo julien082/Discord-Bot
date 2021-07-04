@@ -21,26 +21,6 @@ client.registry
   .registerGroups(['music'])
 	.registerCommandsIn(path.join(__dirname, 'commands'));
 */
-if (message.content === '!testt') {  
-(`>>> <a:commandes:861037555301220413>   **Commandes** : !clear (supprimer messages).
-
-<:tarkov:861045088900743228>   **Tarkov** : !map, !quest, !ammo, !key, !ledx, !graphic, !scav.
- 
-● **Armes** : 
- 
-- <:assaut:861054281276719125>  **Assauts** : !m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.
- 
-- <:weapon:861047801239830539>  **Mitraillettes** : !mpx, !mp5, !mp7, !p90, !vector.
- 
-- <:rifle:861050143813926943>  **Coup par coup** : !adar, !fal, !sr, !tx.
- 
-- <:sniper:861047828607270922>  **Snipes** : !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.`);
-const embed = new Discord.MessageEmbed()
-.setColor('##9EA440')
-.setTitle('ERREUR')
-
-return message.channel.send(embed)
-}
 
 const { MessageAttachment } = require('discord.js')
 const nodeHtmlToImage = require('node-html-to-image')
@@ -128,6 +108,60 @@ client.on('message', message => {
 - <:rifle:861050143813926943>  **Coup par coup** : !adar, !fal, !sr, !tx.
    
 - <:sniper:861047828607270922>  **Snipes** : !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.`)};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (message.content === '!testt') {  
+  (`>>> <a:commandes:861037555301220413>   **Commandes** : !clear (supprimer messages).
+  
+  <:tarkov:861045088900743228>   **Tarkov** : !map, !quest, !ammo, !key, !ledx, !graphic, !scav.
+   
+  ● **Armes** : 
+   
+  - <:assaut:861054281276719125>  **Assauts** : !m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.
+   
+  - <:weapon:861047801239830539>  **Mitraillettes** : !mpx, !mp5, !mp7, !p90, !vector.
+   
+  - <:rifle:861050143813926943>  **Coup par coup** : !adar, !fal, !sr, !tx.
+   
+  - <:sniper:861047828607270922>  **Snipes** : !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.`);
+  const embed = new Discord.MessageEmbed()
+  .setColor('##9EA440')
+  .setTitle('ERREUR')
+  
+  return message.channel.send(embed)
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   if (message.content === '!map') {  
     message.channel.send(`Interactive : <https://www.gamemaps.co.uk/game/tarkov/maps/glory4life_updated_feb_2021>
 
