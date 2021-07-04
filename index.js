@@ -136,13 +136,14 @@ if (message.content === '!testt') {
   - <:rifle:861050143813926943>  **Coup par coup** : !adar, !fal, !sr, !tx.
    
   - <:sniper:861047828607270922>  **Snipes** : !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.`);
+
   const embed = new Discord.MessageEmbed()
   .setColor('#9EA440')
   .setTitle('<a:commandes:861037555301220413>  **Commandes :** ')
   .addFields(
-    { name: '!clear (supprimer les messages)', inline: true},
-    { name: '<:tarkov:861045088900743228>  **Tarkov**', value: '!map, !quest, !ammo, !key, !ledx, !graphic, !scav.', inline: true},
-    { name: '<:assaut:861054281276719125>  **Assauts** :' , value: '!m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.', inline: true }
+    { name: '!clear (supprimer les messages)', inline: false },
+    { name: '<:tarkov:861045088900743228>  **Tarkov**', value: '!map, !quest, !ammo, !key, !ledx, !graphic, !scav.', inline: false },
+    { name: '<:assaut:861054281276719125>  **Assauts** :' , value: '!m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.', inline: false }
   )
   .setThumbnail('https://prnt.sc/18fi01h')
   
