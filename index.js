@@ -63,7 +63,7 @@ module.exports = async (msg, name) => {
   </head>
   <body>
     <div class="app">
-      <img src="https://fr.wikipedia.org/wiki/Image#/media/Fichier:Image_created_with_a_mobile_phone.png" />
+      <img src="https://avatars.dicebear.com/4.5/api/avataaars/${name}.svg" />
 
       <h4>Welcome ${name}</h4>
     </div>
