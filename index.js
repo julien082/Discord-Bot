@@ -142,7 +142,7 @@ if (message.content === '!testt') {
   .setTitle('<a:commandes:861037555301220413>  **Commandes :** ')
   .setThumbnail('https://prnt.sc/18fi01h')
   .addFields(
-    { name: '!clear (supprimer les messages)', value:'', inline: false },
+    { name: '!clear ', value:'(supprimer les messages)', inline: true },
     { name: '<:tarkov:861045088900743228>  **Tarkov**', value: '!map, !quest, !ammo, !key, !ledx, !graphic, !scav.', inline: false },
     { name: '<:assaut:861054281276719125>  **Assauts** :' , value: '!m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.', inline: false },
     { name: '<:weapon:861047801239830539>  **Mitraillettes**', value: '!mpx, !mp5, !mp7, !p90, !vector.', inline: false },
