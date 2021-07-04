@@ -92,6 +92,7 @@ module.exports = async (msg, name) => {
 
 
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'))
+console.log(commandFiles)
 
 for (const file of commandFiles) {
   const command = require(`./commands/${file}`)
