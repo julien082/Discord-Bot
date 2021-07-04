@@ -1,9 +1,10 @@
 const fs = require("fs")
-const { TOKEN, PREFIX } = require ('./config');
+const { PREFIX } = require ('./config');
 const Discord = require('discord.js');
 const {Client, Collection} = require('discord.js');
 const client = new Client();
 client.commands = new Collection()
+require("dotenv").config()
 
 const { downloadFromInfo } = require('ytdl-core');
 const ytdl = require("ytdl-core");
@@ -143,7 +144,7 @@ client.on('message', message => {
 
 
 
-if (message.content === '!testt') {  
+if (message.content === `${PREFIX}testt`) {  
   (`>>> <a:commandes:861037555301220413>   **Commandes** : !clear .
   
   <:tarkov:861045088900743228>   **Tarkov** : !map, !quest, !ammo, !key, !ledx, !graphic, !scav.
@@ -482,4 +483,4 @@ function play(guild, song) {
 */
 /** Music */
 
-client.login(TOKEN)
+client.login(process.env.TOKEN)
