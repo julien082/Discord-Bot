@@ -145,7 +145,9 @@ if (message.content === '!testt') {
 
 
 
-if (message.content === '!teest') {  
+
+
+  if (message.content === '!teest') {  
     message.channel.send({
     "content": "yuiyuiyiniiu",
     "embeds": [
@@ -162,8 +164,8 @@ if (message.content === '!teest') {
       }
     ]
   }
-
-
+ )
+};
 
 
 
