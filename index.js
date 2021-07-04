@@ -140,15 +140,45 @@ if (message.content === '!testt') {
   .setColor('#9EA440')
   .setTitle('<a:commandes:861037555301220413>  **Commandes :** ')
   .addFields(
-    { name: '!clear (supprimer les messages)',value:''},
-    { name: '<:tarkov:861045088900743228>  **Tarkov**', value: '!map, !quest, !ammo, !key, !ledx, !graphic, !scav.'},
-    { name: '<:assaut:861054281276719125>  **Assauts** :' , value: '!m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.'}
+    { name: '!clear (supprimer les messages)', inline: true},
+    { name: '<:tarkov:861045088900743228>  **Tarkov**', value: '!map, !quest, !ammo, !key, !ledx, !graphic, !scav.', inline: true},
+    { name: '<:assaut:861054281276719125>  **Assauts** :' , value: '!m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.', inline: true }
   )
   .setThumbnail('https://prnt.sc/18fi01h')
   
   return message.channel.send(embed)
   }
 
+
+
+
+  if (message.content === '!teest') {  
+    message.channel.send({
+        "username": "",
+        "avatar_url": "",
+        "content": "",
+        "embeds": [
+          {
+            "title": "ljjkljk",
+            "color": 8454016,
+            "description": "jkljklhjkhjkhjkjk",
+            "timestamp": "",
+            "author": {
+              "name": "hkhk",
+              "url": "jhk"
+            },
+            "image": {},
+            "thumbnail": {},
+            "footer": {
+              "text": "kjkhj"
+            },
+            "fields": []
+          }
+        ],
+        "components": []
+      }
+ )
+};
 
 
 
