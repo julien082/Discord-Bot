@@ -138,12 +138,12 @@ if (message.content === '!testt') {
   - <:sniper:861047828607270922>  **Snipes** : !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.`);
 
   const embed = new Discord.MessageEmbed()
-  const  MessageAttachement = require("discord.js")
-  const diceImg = new MessageAttachement ('./Images/Killa.jpg')
+  const {MessageAttachment} = require ("discord.js")
+  const diceImg = new MessageAttachment ('./Images/Killa.jpg')
   .setColor('#9EA440')
   .setTitle('<a:commandes:861037555301220413>  **Commandes :** ')
   .attachFiles(diceImg)
-  .setThumbnail('attachement://Killa.jpg')
+  .setThumbnail('attachment://Killa.jpg')
   .addFields(
     { name: '!clear ', value:'(supprimer les messages)', inline: false },
     { name: '<:tarkov:861045088900743228>  **Tarkov** :', value: '!map, !quest, !ammo, !key, !ledx, !graphic, !scav.', inline: false },
