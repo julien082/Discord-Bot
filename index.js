@@ -137,9 +137,9 @@ if (message.content === '!testt') {
    
   - <:sniper:861047828607270922>  **Snipes** : !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.`);
 
-  const embed = new Discord.MessageEmbed()
-  const {MessageAttachment} = require ("discord.js")
+  const {MessageAttachment} = require ('discord.js')
   const diceImg = new MessageAttachment ('./Images/Killa.jpg')
+  const embed = new Discord.MessageEmbed()
   .setColor('#9EA440')
   .setTitle('<a:commandes:861037555301220413>  **Commandes :** ')
   .attachFiles(diceImg)
