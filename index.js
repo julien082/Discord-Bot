@@ -22,6 +22,10 @@ client.registry
 	.registerCommandsIn(path.join(__dirname, 'commands'));
 */
 
+const embed = new Discord.MessageEmbed()
+.setColor('#03c2fc')
+.setTitle('ERREUR')
+
 const { MessageAttachment } = require('discord.js')
 const nodeHtmlToImage = require('node-html-to-image')
 
@@ -95,7 +99,7 @@ client.once('ready', () => {
 /** Commandes */
 client.on('message', message => {
   if (message.content === '!help') {  
-    message.channel.send(`>>> <a:commandes:861037555301220413>   **Commandes** : !clear (supprimer messages).
+    message.channel.send(embed)(`>>> <a:commandes:861037555301220413>   **Commandes** : !clear (supprimer messages).
 
 <:tarkov:861045088900743228>   **Tarkov** : !map, !quest, !ammo, !key, !ledx, !graphic, !scav.
    
