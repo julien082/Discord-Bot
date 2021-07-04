@@ -38,7 +38,7 @@ client.on('message', message => {
    
 - <:weapon:861047801239830539>   **Mitraillettes** : !mpx, !mp5, !mp7, !p90, !vector.
    
-- **Coup par coup** : !adar, !fal, !sr, !tx.
+- <:rifle:861050143813926943>   **Coup par coup** : !adar, !fal, !sr, !tx.
    
 - <:sniper:861047828607270922>   **Snipes** : !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.`)};
   if (message.content === '!map') {  
