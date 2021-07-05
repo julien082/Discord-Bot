@@ -1,4 +1,4 @@
-module.exports = async function (message){ 
+module.exports = async function (message) { 
 
       if (message.content === '!key') {  
         message.channel.send(`https://prnt.sc/r9dlgs https://prnt.sc/10o12ur`)}; 
