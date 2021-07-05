@@ -12,6 +12,8 @@ module.exports = {
     Woods : <https://escapefromtarkov-fr.gamepedia.com/Bois>
     Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)
     },
+  }
+    /**
     name: 'quest',
     description: 'commandes quetes',
     execute(message){
@@ -45,7 +47,7 @@ module.exports = {
     ● La réputation chez Fence ne diminuera désormais pas si le joueur a tué un Scav qui a attaqué en premier.`)
     },
   }
-
+*/
         /**
           if (message.content === '!quest') {  
             message.channel.send(`https://media.discordapp.net/attachments/776801862778093568/798907782635716658/Objets_de_quetes.jpg?width=1346&height=676`)}; 
