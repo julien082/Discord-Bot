@@ -23,11 +23,12 @@ client.once('ready', () => {
     console.log('Ready!');
 });
 
-/** Commandes */
 client.on("message", commandHandler)
 client.on('message', message => {
 
-if (message.content === '?clear'){
+/** Clear */
+
+if (message.content.startsWith('!clear')){
   message.delete();
     if(message.member.hasPermission('MANAGE_CHANNELS')){
       let args = message.content.trim().split(/ +/g);
@@ -48,12 +49,14 @@ if (message.content === '?clear'){
           message.channel.send('Ta pas le dtoit de supprimer les messages KURWA !')
         }
       }
- 
-  if(!message.content.startsWith(PREFIX) || message.author.bot) return;
+  
+/** Clear */
+
+if(!message.content.startsWith(PREFIX) || message.author.bot) return;
   const args = message.content.slice(PREFIX.length).split(/ +/)
   const command = args.shift().toLowerCase()
 
-  if (!client.commands.has(command)) return
+if (!client.commands.has(command)) return
   client.commands.get(command).execute(message, args)
 
 })
