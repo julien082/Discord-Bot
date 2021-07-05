@@ -1,16 +1,18 @@
 module.exports = {
-    name: 'map',
-    description: 'Commandes pour tarkov',
     execute(message){  
-            message.channel.send(`Interactive : <https://www.gamemaps.co.uk/game/tarkov/maps/glory4life_updated_feb_2021>
+      if (message.content === '!key') {  
+        message.channel.send(`https://prnt.sc/r9dlgs https://prnt.sc/10o12ur`)}; 
+      if (message.content === '!map') {  
+        message.channel.send(`Factory : <https://escapefromtarkov-fr.gamepedia.com/Usine>
+        Customs : <https://escapefromtarkov-fr.gamepedia.com/Douanes>
+        Interchange : <https://escapefromtarkov-fr.gamepedia.com/%C3%89changeur>
+        Shoreline : <https://escapefromtarkov-fr.gamepedia.com/Littoral>
+        The Lab : <https://escapefromtarkov-fr.gamepedia.com/Labo>
+        Woods : <https://escapefromtarkov-fr.gamepedia.com/Bois>
+        Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)}; 
         
-Factory : <https://escapefromtarkov-fr.gamepedia.com/Usine>
-Customs : <https://escapefromtarkov-fr.gamepedia.com/Douanes>
-Interchange : <https://escapefromtarkov-fr.gamepedia.com/%C3%89changeur>
-Shoreline : <https://escapefromtarkov-fr.gamepedia.com/Littoral>
-The Lab : <https://escapefromtarkov-fr.gamepedia.com/Labo>
-Woods : <https://escapefromtarkov-fr.gamepedia.com/Bois>
-Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)
+        /**
+`)
     },
     name: 'quest',
     description: 'commandes quetes',
@@ -134,3 +136,4 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)
               message.channel.send('')}; 
               */
 
+            }}
