@@ -1,14 +1,15 @@
 module.exports = async function (message){ 
+
       if (message.content === '!key') {  
         message.channel.send(`https://prnt.sc/r9dlgs https://prnt.sc/10o12ur`)}; 
       if (message.content === '!map') {  
         message.channel.send(`Factory : <https://escapefromtarkov-fr.gamepedia.com/Usine>
-      Customs : <https://escapefromtarkov-fr.gamepedia.com/Douanes>
-      Interchange : <https://escapefromtarkov-fr.gamepedia.com/%C3%89changeur>
-      Shoreline : <https://escapefromtarkov-fr.gamepedia.com/Littoral>
-      The Lab : <https://escapefromtarkov-fr.gamepedia.com/Labo>
-      Woods : <https://escapefromtarkov-fr.gamepedia.com/Bois>
-      Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)}; 
+Customs : <https://escapefromtarkov-fr.gamepedia.com/Douanes>
+Interchange : <https://escapefromtarkov-fr.gamepedia.com/%C3%89changeur>
+Shoreline : <https://escapefromtarkov-fr.gamepedia.com/Littoral>
+The Lab : <https://escapefromtarkov-fr.gamepedia.com/Labo>
+Woods : <https://escapefromtarkov-fr.gamepedia.com/Bois>
+Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)}; 
       if (message.content === '!quest') {  
             message.channel.send(`https://media.discordapp.net/attachments/776801862778093568/798907782635716658/Objets_de_quetes.jpg?width=1346&height=676`)}; 
       if (message.content === '!ammo') {  
@@ -21,8 +22,8 @@ module.exports = async function (message){
             message.channel.send(`https://escapefromtarkov.fandom.com/fr/wiki/Fichier:BTC_time_to_graphics_card_chart.png`)};   
       if (message.content === '!scav') { 
             message.channel.send(`https://cdn.discordapp.com/attachments/776801862778093568/860476889650561034/EFT_Scav_Code_FR.png
-      Update:
-      ● La réputation chez Fence ne diminuera désormais pas si le joueur a tué un Scav qui a attaqué en premier.`)};   
+Update:
+● La réputation chez Fence ne diminuera désormais pas si le joueur a tué un Scav qui a attaqué en premier.`)};   
         
       if (message.content === '!m4') {  
             message.channel.send(`https://prnt.sc/xtckq4 https://prnt.sc/xtclh5`)};
@@ -91,5 +92,6 @@ module.exports = async function (message){
       if (message.content === '!chauve') {  
             message.channel.send(`https://tenor.com/view/calou-eggs-head-bald-gif-16129954`)}; 
       if (message.content === '!test') {  
-              message.channel.send('')};
-        }
+              message.channel.send('')
+      };
+    }
