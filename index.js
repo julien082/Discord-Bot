@@ -10,7 +10,82 @@ const { downloadFromInfo } = require('ytdl-core');
 const ytdl = require("ytdl-core");
 const queue = new Map();
 
+const commandFiles = fs.readdirSync('./commandes').filter(file => file.endsWith('.js'))
+console.log(commandFiles)
 
+for (const file of commandFiles) {
+  const command = require(`./commandes/${file}`)
+  client.commands.set(command.name, command)
+  console.log(`client.commands`)
+}
+
+
+client.once('ready', () => {
+    console.log('Ready!');
+});
+
+/** Commandes */
+client.on('message', message => {
+
+  if(!message.content.startsWith(PREFIX) || message.author.bot) return;
+  const args = message.content.slice(PREFIX.length).split(/ +/)
+  const command = args.shift().toLowerCase()
+
+  if (!client.commands.has(command)) return
+  client.commands.get(command).execute(message, args)
+
+
+  if (message.content === '?help') {  
+    message.channel.send(`>>> <a:commandes:861037555301220413>   **Commandes** : !clear (supprimer messages).
+
+<:tarkov:861045088900743228>   **Tarkov** : !map, !quest, !ammo, !key, !ledx, !graphic, !scav.
+   
+● **Armes** : 
+   
+- <:assaut:861054281276719125>  **Assauts** : !m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.
+   
+- <:weapon:861047801239830539>  **Mitraillettes** : !mpx, !mp5, !mp7, !p90, !vector.
+   
+- <:rifle:861050143813926943>  **Coup par coup** : !adar, !fal, !sr, !tx.
+   
+- <:sniper:861047828607270922>  **Snipes** : !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.`)};
+
+
+if (message.content === '?testt'){ message.channel.send (`>>> <a:commandes:861037555301220413>   **Commandes** : !clear .
+  
+  <:tarkov:861045088900743228>   **Tarkov** : !map, !quest, !ammo, !key, !ledx, !graphic, !scav.
+   
+  ● **Armes** : 
+   
+  - <:assaut:861054281276719125>  **Assauts** : !m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.
+   
+  - <:weapon:861047801239830539>  **Mitraillettes** : !mpx, !mp5, !mp7, !p90, !vector.
+   
+  - <:rifle:861050143813926943>  **Coup par coup** : !adar, !fal, !sr, !tx.
+   
+  - <:sniper:861047828607270922>  **Snipes** : !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.`)
+
+  const {MessageAttachment} = require ('discord.js')
+  const diceImg = new MessageAttachment ('./Images/kikiki.png')
+
+  const embed = new Discord.MessageEmbed()
+    .setColor("#FDFEFE")
+    .setTitle('<a:commandes:861037555301220413>  **Commandes :**')
+    .attachFiles(diceImg)
+    .setImage('attachment://kikiki.png')
+    .addFields(
+      { name: '\u200b**!clear** (supprimer messages)', value: '\u200b', inline: true },
+      { name: '<:tarkov:861045088900743228>  **Tarkov** :', value: '!map, !quest, !ammo, !key, !ledx, !graphic, !scav.', inline: false },
+      { name: '\u200b', value:'● **Armes** :', inline: false},
+      { name: '<:assaut:861054281276719125>  **Assauts** :' , value: '  !m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.', inline: false },
+      { name: '<:weapon:861047801239830539>  **Mitraillettes** :', value: '  !mpx, !mp5, !mp7, !p90, !vector.', inline: false },
+      { name: '<:rifle:861050143813926943>  **Coup par coup** :', value: '  !adar, !fal, !sr, !tx.', inline: false },
+      { name: '<:sniper:861047828607270922>  **Snipes** :', value: '  !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.', inline: false },
+    )
+    return message.channel.send(embed)
+    }
+  }
+)
 
 /**
 const { CommandoClient } = require('discord.js-commando');
@@ -92,88 +167,7 @@ module.exports = async (msg, name) => {
 }
 */
 
-const commandFiles = fs.readdirSync('./commandes').filter(file => file.endsWith('.js'))
-console.log(commandFiles)
 
-for (const file of commandFiles) {
-  const command = require(`./commandes/${file}`)
-  client.commands.set(command.name, command)
-  console.log(`client.commands`)
-}
-
-
-client.once('ready', () => {
-    console.log('Ready!');
-});
-
-/** Commandes */
-client.on('message', message => {
-
-  if(!message.content.startsWith(PREFIX) || message.author.bot) return;
-  const args = message.content.slice(PREFIX.length).split(/ +/)
-  const command = args.shift().toLowerCase()
-
-  if (!client.commands.has(command)) return
-  client.commands.get(command).execute(message, args)
-
-
-  if (message.content === '?help') {  
-    message.channel.send(`>>> <a:commandes:861037555301220413>   **Commandes** : !clear (supprimer messages).
-
-<:tarkov:861045088900743228>   **Tarkov** : !map, !quest, !ammo, !key, !ledx, !graphic, !scav.
-   
-● **Armes** : 
-   
-- <:assaut:861054281276719125>  **Assauts** : !m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.
-   
-- <:weapon:861047801239830539>  **Mitraillettes** : !mpx, !mp5, !mp7, !p90, !vector.
-   
-- <:rifle:861050143813926943>  **Coup par coup** : !adar, !fal, !sr, !tx.
-   
-- <:sniper:861047828607270922>  **Snipes** : !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.`)};
-
-
-
-
-
-
-
-
-if (message.content === '?testt'){ message.channel.send (`>>> <a:commandes:861037555301220413>   **Commandes** : !clear .
-  
-  <:tarkov:861045088900743228>   **Tarkov** : !map, !quest, !ammo, !key, !ledx, !graphic, !scav.
-   
-  ● **Armes** : 
-   
-  - <:assaut:861054281276719125>  **Assauts** : !m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.
-   
-  - <:weapon:861047801239830539>  **Mitraillettes** : !mpx, !mp5, !mp7, !p90, !vector.
-   
-  - <:rifle:861050143813926943>  **Coup par coup** : !adar, !fal, !sr, !tx.
-   
-  - <:sniper:861047828607270922>  **Snipes** : !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.`)
-
-  const {MessageAttachment} = require ('discord.js')
-  const diceImg = new MessageAttachment ('./Images/kikiki.png')
-
-  const embed = new Discord.MessageEmbed()
-    .setColor("#FDFEFE")
-    .setTitle('<a:commandes:861037555301220413>  **Commandes :**')
-    .attachFiles(diceImg)
-    .setImage('attachment://kikiki.png')
-    .addFields(
-      { name: '\u200b**!clear** (supprimer messages)', value: '\u200b', inline: true },
-      { name: '<:tarkov:861045088900743228>  **Tarkov** :', value: '!map, !quest, !ammo, !key, !ledx, !graphic, !scav.', inline: false },
-      { name: '\u200b', value:'● **Armes** :', inline: false},
-      { name: '<:assaut:861054281276719125>  **Assauts** :' , value: '  !m4, !hk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.', inline: false },
-      { name: '<:weapon:861047801239830539>  **Mitraillettes** :', value: '  !mpx, !mp5, !mp7, !p90, !vector.', inline: false },
-      { name: '<:rifle:861050143813926943>  **Coup par coup** :', value: '  !adar, !fal, !sr, !tx.', inline: false },
-      { name: '<:sniper:861047828607270922>  **Snipes** :', value: '  !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.', inline: false },
-    )
-    return message.channel.send(embed)
-    }
-  }
-)
 
 /**
 
