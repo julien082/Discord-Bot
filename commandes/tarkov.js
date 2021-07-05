@@ -1,17 +1,23 @@
 module.exports = {
     name: 'tarkov',
     description: 'Commandes pour tarkov',
-    execute(message, args){  
+    execute(message){  
             message.channel.send(`Interactive : <https://www.gamemaps.co.uk/game/tarkov/maps/glory4life_updated_feb_2021>
         
-        Factory : <https://escapefromtarkov-fr.gamepedia.com/Usine>
-        Customs : <https://escapefromtarkov-fr.gamepedia.com/Douanes>
-        Interchange : <https://escapefromtarkov-fr.gamepedia.com/%C3%89changeur>
-        Shoreline : <https://escapefromtarkov-fr.gamepedia.com/Littoral>
-        The Lab : <https://escapefromtarkov-fr.gamepedia.com/Labo>
-        Woods : <https://escapefromtarkov-fr.gamepedia.com/Bois>
-        Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`); 
+    Factory : <https://escapefromtarkov-fr.gamepedia.com/Usine>
+    Customs : <https://escapefromtarkov-fr.gamepedia.com/Douanes>
+    Interchange : <https://escapefromtarkov-fr.gamepedia.com/%C3%89changeur>
+    Shoreline : <https://escapefromtarkov-fr.gamepedia.com/Littoral>
+    The Lab : <https://escapefromtarkov-fr.gamepedia.com/Labo>
+    Woods : <https://escapefromtarkov-fr.gamepedia.com/Bois>
+    Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)
+    },
+    name: 'quest',
+    description: 'commandes quetes',
+    execute(message){
+      message.channel.send('https://media.discordapp.net/attachments/776801862778093568/798907782635716658/Objets_de_quetes.jpg?width=1346&height=676')
     }
+  }
         /**
           if (message.content === '!quest') {  
             message.channel.send(`https://media.discordapp.net/attachments/776801862778093568/798907782635716658/Objets_de_quetes.jpg?width=1346&height=676`)}; 
@@ -97,5 +103,4 @@ module.exports = {
             if (message.content === '!test') {  
               message.channel.send('')}; 
               */
-    }
 
