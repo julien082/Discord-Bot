@@ -27,7 +27,7 @@ client.registry
   .registerGroups(['music'])
 	.registerCommandsIn(path.join(__dirname, 'commands'));
 */
-
+/**
 const { MessageAttachment } = require('discord.js')
 const nodeHtmlToImage = require('node-html-to-image');
 const { exectute } = require('./commands/clear');
@@ -90,13 +90,13 @@ module.exports = async (msg, name) => {
 
   if (message.content ==='!oui') msg.channel.send(new MessageAttachment(images, `${name}.jpeg`))
 }
+*/
 
-
-const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'))
+const commandFiles = fs.readdirSync('./commandes').filter(file => file.endsWith('.js'))
 console.log(commandFiles)
 
 for (const file of commandFiles) {
-  const command = require(`./commands/${file}`)
+  const command = require(`./commandes/${file}`)
   client.commands.set(command.name, command)
   console.log(`client.commands`)
 }
