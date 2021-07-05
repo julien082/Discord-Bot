@@ -3,6 +3,7 @@ const { PREFIX } = require ('./config');
 const Discord = require('discord.js');
 const {Client, Collection} = require('discord.js');
 const client = new Client();
+const commandHandler = require('./commandes/tarkov')
 client.commands = new Collection()
 require("dotenv").config()
 
@@ -11,12 +12,10 @@ const ytdl = require("ytdl-core");
 const queue = new Map();
 
 const commandFiles = fs.readdirSync('./commandes').filter(file => file.endsWith('.js'))
-console.log(commandFiles)
 
 for (const file of commandFiles) {
   const command = require(`./commandes/${file}`)
   client.commands.set(command.name, command)
-  console.log(`client.commands`)
 }
 
 
@@ -25,7 +24,30 @@ client.once('ready', () => {
 });
 
 /** Commandes */
+client.on("message", commandHandler)
 client.on('message', message => {
+
+if (message.content === '?clear'){
+  message.delete();
+    if(message.member.hasPermission('MANAGE_CHANNELS')){
+      let args = message.content.trim().split(/ +/g);
+      if(args[1]){
+        if(!isNaN(args[1]) && args[1] >= 1 && args [1] <= 10){
+          message.channel.bulkDelete(args[1])
+          message.channel.send(`${args[1]} messages supprimés`)
+        }
+        else{
+          message.channel.send('Entre 1 et 10 messages BLYAT !')
+        }
+      }
+        else{
+          message.channel.send('Met un chiffre après clear con DAVAÏ !')
+        }
+      }
+        else{
+          message.channel.send('Ta pas le dtoit de supprimer les messages KURWA !')
+        }
+      }
 
   if(!message.content.startsWith(PREFIX) || message.author.bot) return;
   const args = message.content.slice(PREFIX.length).split(/ +/)
@@ -267,10 +289,9 @@ Update:
       message.channel.send('')}; 
 
 */
-
-/** Clear
+/**
   
-  if (message.content === '"!clear"'){
+  if (message.content === '!clear'){
     message.delete();
       if(message.member.hasPermission('MANAGE_CHANNELS')){
         let args = message.content.trim().split(/ +/g);
