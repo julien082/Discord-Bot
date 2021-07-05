@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'clear',
+    name: 'dada',
     description: "Clear messages!",
     async exectute(message, args){
         if(!args[0]) return message.reply("Entre le nombre de messages que tu veux supprimé")
