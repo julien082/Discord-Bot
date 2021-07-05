@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'tarkov',
+    name: 'map',
     description: 'Commandes pour tarkov',
     execute(message){  
             message.channel.send(`Interactive : <https://www.gamemaps.co.uk/game/tarkov/maps/glory4life_updated_feb_2021>
@@ -16,8 +16,36 @@ module.exports = {
     description: 'commandes quetes',
     execute(message){
       message.channel.send('https://media.discordapp.net/attachments/776801862778093568/798907782635716658/Objets_de_quetes.jpg?width=1346&height=676')
-    }
+    },
+    name: 'ammo',
+    description: 'commandes quetes',
+    execute(message){
+      message.channel.send('https://tarkov.ascheron.dev')
+    },
+    name: 'key',
+    description: 'commandes quetes',
+    execute(message){
+      message.channel.send('https://prnt.sc/r9dlgs https://prnt.sc/10o12ur')
+    },
+    name: 'ledx',
+    description: 'commandes quetes',
+    execute(message){
+      message.channel.send('104 Ouest | 205 Ouest | 301 Ouest | 107 Est | 222-226 Est | 313-314 Est | Emercom | Blue Keycard | Green Keycard')
+    },
+    name: 'graphic',
+    description: 'commandes quetes',
+    execute(message){
+      message.channel.send('https://escapefromtarkov.fandom.com/fr/wiki/Fichier:BTC_time_to_graphics_card_chart.png')  
+    },
+    name: 'scav',
+    description: 'commandes quetes',
+    execute(message){
+      message.channel.send(`https://cdn.discordapp.com/attachments/776801862778093568/860476889650561034/EFT_Scav_Code_FR.png
+    Update: 
+    ● La réputation chez Fence ne diminuera désormais pas si le joueur a tué un Scav qui a attaqué en premier.`)
+    },
   }
+
         /**
           if (message.content === '!quest') {  
             message.channel.send(`https://media.discordapp.net/attachments/776801862778093568/798907782635716658/Objets_de_quetes.jpg?width=1346&height=676`)}; 
