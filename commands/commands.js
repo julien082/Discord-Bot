@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'Tarkov',
+    name: 'tarkov',
     description: 'Commandes pour tarkov',
     execute(message, args){
         if (message.content === '!map') {  
