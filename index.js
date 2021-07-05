@@ -48,7 +48,7 @@ if (message.content === '?clear'){
           message.channel.send('Ta pas le dtoit de supprimer les messages KURWA !')
         }
       }
-
+ 
   if(!message.content.startsWith(PREFIX) || message.author.bot) return;
   const args = message.content.slice(PREFIX.length).split(/ +/)
   const command = args.shift().toLowerCase()
@@ -56,8 +56,10 @@ if (message.content === '?clear'){
   if (!client.commands.has(command)) return
   client.commands.get(command).execute(message, args)
 
-
-  if (message.content === '?help') {  
+})
+    
+/** 
+if (message.content === '?helpoo') {  
     message.channel.send(`>>> <a:commandes:861037555301220413>   **Commandes** : !clear (supprimer messages).
 
 <:tarkov:861045088900743228>   **Tarkov** : !map, !quest, !ammo, !key, !ledx, !graphic, !scav.
@@ -71,7 +73,6 @@ if (message.content === '?clear'){
 - <:rifle:861050143813926943>  **Coup par coup** : !adar, !fal, !sr, !tx.
    
 - <:sniper:861047828607270922>  **Snipes** : !sks, !svds, !m1, !m700, !t5000, !rsass, !mk.`)};
-
 
 if (message.content === '?testt'){ message.channel.send (`>>> <a:commandes:861037555301220413>   **Commandes** : !clear .
   
