@@ -55,9 +55,9 @@ Update:
       if (message.content === '!mpx') {  
             message.channel.send(`https://prnt.sc/xtd6b8`)};
       if (message.content === '!p90') {  
-            message.channel.send(`https://prnt.sc/xtcole`)};
+            message.channel.send(`https://prnt.sc/1rjuua5`)};
       if (message.content === '!vector') {  
-            message.channel.send(`https://prnt.sc/xtcole`)};
+            message.channel.send(`https://prnt.sc/1rju7s5`)};
         
       if (message.content === '!adar') {  
             message.channel.send(`http://prntscr.com/q4c3t6`)};
@@ -72,7 +72,7 @@ Update:
       if (message.content === '!sks') {  
             message.channel.send(`https://prnt.sc/xtcfd5`)};
       if (message.content === '!svds') {  
-            message.channel.send(`https://prnt.sc/xtcole`)};
+            message.channel.send(`https://prnt.sc/1rjuf2r`)};
       if (message.content === '!m1') {  
             message.channel.send(`https://prnt.sc/xtcsym`)};
       if (message.content === '!m700') {  
