@@ -47,6 +47,8 @@ Update:
             message.channel.send(`https://prnt.sc/xtd2ga`)};
       if (message.content === '!val') {  
             message.channel.send(`https://prnt.sc/vgwi3l`)};
+      if (message.content === '!mutant') {  
+            message.channel.send(`https://prnt.sc/1gprb7r https://prnt.sc/1h3u6lj`)};
         
       if (message.content === '!mp5') {  
             message.channel.send(`https://prnt.sc/xtd34d`)};
