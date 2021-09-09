@@ -26,7 +26,7 @@ Update:
 ● La réputation chez Fence ne diminuera désormais pas si le joueur a tué un Scav qui a attaqué en premier.`)};   
         
       if (message.content === '!m4') {  
-            message.channel.send(`https://prnt.sc/xtckq4 https://prnt.sc/xtclh5`)};
+            message.channel.send(`https://prnt.sc/xtckq4   https://prnt.sc/xtclh5`)};
       if (message.content === '!hk') {  
             message.channel.send(`https://prnt.sc/xtcqqu`)};
       if (message.content === '!ak') {  
@@ -48,7 +48,7 @@ Update:
       if (message.content === '!val') {  
             message.channel.send(`https://prnt.sc/vgwi3l`)};
       if (message.content === '!mutant') {  
-            message.channel.send(`https://prnt.sc/1gprb7r https://prnt.sc/1h3u6lj`)};
+            message.channel.send(`https://prnt.sc/1gprb7r   https://prnt.sc/1h3u6lj`)};
         
       if (message.content === '!mp5') {  
             message.channel.send(`https://prnt.sc/xtd34d`)};
