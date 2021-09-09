@@ -57,7 +57,7 @@ Update:
       if (message.content === '!mpx') {  
             message.channel.send(`https://prnt.sc/xtd6b8`)};
       if (message.content === '!p90') {  
-            message.channel.send(`https://prnt.sc/1rjuua5, https://www.noelshack.com/2021-36-4-1631180249-p902.jpg`)};
+            message.channel.send(`https://prnt.sc/1rjuua5, https://www.noelshack.com/2021-36-4-1631180249-p902.jpg, https://image.noelshack.com/fichiers/2021/36/4/1631180249-p902.jpg`)};
       if (message.content === '!vector') {  
             message.channel.send(`https://prnt.sc/1rju7s5`)};
         
