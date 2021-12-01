@@ -88,7 +88,7 @@ Update:
             message.channel.send(`https://prnt.sc/t1thcp`)};
       if (message.content === '!rsass') {  
             message.channel.send(`https://prnt.sc/xtcw7j`)};
-      if (message.content === '!mk') {  
+      if (message.content === '!mk18') {  
             message.channel.send(`https://prnt.sc/17idxmr`)};  
         
       if (message.content === '!dododex') {  

@@ -19,7 +19,7 @@ module.exports = {
             { name: '<:assaut:861054281276719125>  **Assauts** :' , value: '  !m4, !hk, !mk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.', inline: false },
             { name: '<:weapon:861047801239830539>  **P-Mitrailleurs** :', value: '  !mpx, !mp5, !mp7, !p90, !vector.', inline: false },
             { name: '<:rifle:861050143813926943>  **Semi-Auto** :', value: '  !adar, !fal, !sr, !tx.', inline: false },
-            { name: '<:sniper:861047828607270922>  **Snipes** :', value: '  !sks, !svds, !m1a, !m700, !t5000, !rsass, !mk.', inline: false },
+            { name: '<:sniper:861047828607270922>  **Snipes** :', value: '  !sks, !svds, !m1a, !m700, !t5000, !rsass, !mk18.', inline: false },
           )
           message.channel.send(embed)
           }
