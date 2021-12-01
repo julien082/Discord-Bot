@@ -28,7 +28,9 @@ Update:
       if (message.content === '!m4') {  
             message.channel.send(`https://prnt.sc/xtckq4   https://prnt.sc/xtclh5`)};
       if (message.content === '!hk') {  
-            message.channel.send(`https://prnt.sc/xtcqqu`)};
+            message.channel.send(`https://prnt.sc/1gptr9r ~250 000₽`)};
+      if (message.content === '!mutant') {  
+            message.channel.send(`https://prnt.sc/1gprb7r ~300 000₽ https://prnt.sc/1h3u6lj ~200 000₽`)};
       if (message.content === '!ak') {  
             message.channel.send(`https://prnt.sc/xtcole`)};
       if (message.content === '!akm') {  
