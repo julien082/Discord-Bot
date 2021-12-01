@@ -24,15 +24,20 @@ Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>`)};
             message.channel.send(`https://cdn.discordapp.com/attachments/776801862778093568/862285941620342835/EFT_Scav_Code_FR.png
 Update:
 ● La réputation chez Fence ne diminuera désormais pas si le joueur a tué un Scav qui a attaqué en premier.`)};   
-        
+      if (message.content === '!modding') {  
+            message.channel.send(`https://bit.ly/3f9b8Ik`)};
+      if (message.content === '!postfx') { 
+            message.channel.send(`[furl3x's PostFX]: -Brightness: 100 -Saturation: 20 -Clarity: 100 -Colorfulness: 20 -Luma Sharpen: 100 -Adaptive Sharpen: 20 -Boost (Color Grading): 100`)};
+                  
+                  
       if (message.content === '!m4') {  
-            message.channel.send(`https://prnt.sc/xtckq4   https://prnt.sc/xtclh5`)};
+            message.channel.send(`https://prnt.sc/1gptd1y ~280 000₽`)};
       if (message.content === '!hk') {  
             message.channel.send(`https://prnt.sc/1gptr9r ~250 000₽`)};
-      if (message.content === '!mutant') {  
+      if (message.content === '!mk') {  
             message.channel.send(`https://prnt.sc/1gprb7r ~300 000₽ https://prnt.sc/1h3u6lj ~200 000₽`)};
       if (message.content === '!ak') {  
-            message.channel.send(`https://prnt.sc/xtcole`)};
+            message.channel.send(`https://prnt.sc/1gpppzw ~170 000₽`)};
       if (message.content === '!akm') {  
             message.channel.send(`https://prnt.sc/xtcnyk`)};
       if (message.content === '!akms') {  
@@ -42,24 +47,22 @@ Update:
       if (message.content === '!ak103') {  
             message.channel.send(`https://prnt.sc/13p32ym`)};
       if (message.content === '!rpk') {  
-            message.channel.send(`https://prnt.sc/xtcs45`)};
+            message.channel.send(`https://prnt.sc/1gptxj0 ~140 000₽`)};
       if (message.content === '!vepr') {  
             message.channel.send(`https://prnt.sc/q78tlr`)};
       if (message.content === '!dt') {  
             message.channel.send(`https://prnt.sc/xtd2ga`)};
       if (message.content === '!val') {  
             message.channel.send(`https://prnt.sc/vgwi3l`)};
-      if (message.content === '!mutant') {  
-            message.channel.send(`https://prnt.sc/1gprb7r   https://prnt.sc/1h3u6lj`)};
         
       if (message.content === '!mp5') {  
-            message.channel.send(`https://prnt.sc/xtd34d`)};
+            message.channel.send(`https://prnt.sc/1gpsirf ~120 000₽`)};
       if (message.content === '!mp7') {  
             message.channel.send(`https://prnt.sc/xtd18r`)};
       if (message.content === '!mpx') {  
-            message.channel.send(`https://prnt.sc/xtd6b8`)};
+            message.channel.send(`https://prnt.sc/1gpsrgi ~160 000₽`)};
       if (message.content === '!p90') {  
-            message.channel.send(`https://prnt.sc/1rjuua5, https://www.noelshack.com/2021-36-4-1631180249-p902.jpg, https://image.noelshack.com/fichiers/2021/36/4/1631180249-p902.jpg`)};
+            message.channel.send(`https://prnt.sc/1rjuua5`)};
       if (message.content === '!vector') {  
             message.channel.send(`https://prnt.sc/1rju7s5`)};
         
@@ -68,19 +71,19 @@ Update:
       if (message.content === '!fal') {  
             message.channel.send(`https://prnt.sc/xtcp9q`)};
       if (message.content === '!sr') {  
-            message.channel.send(`https://prnt.sc/xtcy5r`)};
+            message.channel.send(`https://prnt.sc/1i07j56 ~250 000₽`)};
       if (message.content === '!tx') {  
-            message.channel.send(`https://prnt.sc/xtcj6b`)};
+            message.channel.send(`https://prnt.sc/1gpqw7e ~300 000₽`)};
         
         
       if (message.content === '!sks') {  
             message.channel.send(`https://prnt.sc/xtcfd5`)};
       if (message.content === '!svds') {  
             message.channel.send(`https://prnt.sc/1rjuf2r`)};
-      if (message.content === '!m1') {  
-            message.channel.send(`https://prnt.sc/xtcsym`)};
+      if (message.content === '!m1a') {  
+            message.channel.send(`https://prnt.sc/1gppvwg ~270 000₽`)};
       if (message.content === '!m700') {  
-            message.channel.send(`https://prnt.sc/xtcrdm`)};
+            message.channel.send(`https://prnt.sc/1gpt6iu ~180 000₽`)};
       if (message.content === '!t5000') {  
             message.channel.send(`https://prnt.sc/t1thcp`)};
       if (message.content === '!rsass') {  
