@@ -46,7 +46,7 @@ if (message.content.startsWith('!clear')){
         }
       }
         else{
-          message.channel.send('Ta pas le dtoit de supprimer les messages KURWA !')
+          message.channel.send('Ta pas le droit de supprimer les messages KURWA !')
         }
       }
   
