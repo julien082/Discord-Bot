@@ -1,5 +1,7 @@
 module.exports = async function (message) { 
-
+      
+      if (message.content === '!film') {  
+            message.channel.send(`https://www.youtube.com/watch?v=q9OIT7W24V8&t=1062s`)}; 
       if (message.content === '!key') {  
         message.channel.send(`https://prnt.sc/r9dlgs https://prnt.sc/10o12ur`)}; 
       if (message.content === '!map') {  
@@ -89,7 +91,7 @@ Update:
       if (message.content === '!rsass') {  
             message.channel.send(`https://prnt.sc/xtcw7j`)};
       if (message.content === '!mk18') {  
-            message.channel.send(`https://prnt.sc/17idxmr`)};  
+            message.channel.send(`https://prnt.sc/17idxmr`)}; 
         
       if (message.content === '!dododex') {  
             message.channel.send(`https://www.dododex.com/`)}; 
