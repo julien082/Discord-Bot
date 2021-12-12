@@ -15,7 +15,7 @@ module.exports = {
           .addFields(
             { name: '\u200b', value: '**!clear**᲼( supprimer messages )᲼᲼᲼᲼᲼᲼\u200b᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼', inline: false },              
             { name: '<:tarkov:861045088900743228>  **Tarkov** :', value: '!film', inline: false },
-            { name: '\u200b', value:'!map, !quest, !ammo, !key, !ledx, !graphic, !scav, !modding, !postfx.', inline: false},
+            { name: '', value:'!map, !quest, !ammo, !key, !ledx, !graphic, !scav, !modding, !postfx.', inline: false},
             { name: '\u200b', value:'● **Armes** :', inline: false},
             { name: '<:assaut:861054281276719125>  **Assauts** :' , value: '  !m4, !hk, !mk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.', inline: false },
             { name: '<:weapon:861047801239830539>  **P-Mitrailleurs** :', value: '  !mpx, !mp5, !mp7, !p90, !vector.', inline: false },
