@@ -2,6 +2,8 @@ module.exports = async function (message) {
       
       if (message.content === '!film') {  
             message.channel.send(`https://www.youtube.com/watch?v=q9OIT7W24V8&t=1062s`)}; 
+      if (message.content === '!patch') {  
+            message.channel.send(`https://www.escapefromtarkov.com/news/page/0`)}; 
       if (message.content === '!key') {  
         message.channel.send(`https://prnt.sc/r9dlgs https://prnt.sc/10o12ur`)}; 
       if (message.content === '!map') {  
