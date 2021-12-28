@@ -3,7 +3,7 @@ const { PREFIX } = require ('./config');
 const Discord = require('discord.js');
 const {Client, Collection} = require('discord.js');
 const client = new Client();
-const commandHandler = require('./commandes/tarkov')
+const commandHandler = require('./commandes/Escape From Tarkov')
 client.commands = new Collection()
 require("dotenv").config()
 
