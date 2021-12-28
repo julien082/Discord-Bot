@@ -3,7 +3,7 @@ const { PREFIX } = require ('./config');
 const Discord = require('discord.js');
 const {Client, Collection} = require('discord.js');
 const client = new Client();
-const commandHandler = require('./commandes/Escape From Tarkov')
+const commandTarkov = require('./commandes/Escape From Tarkov')
 const commandLostark = require('./commandes/Lost Ark')
 client.commands = new Collection()
 require("dotenv").config()
@@ -24,7 +24,7 @@ client.once('ready', () => {
     console.log('Ready!');
 });
 
-client.on("message", commandHandler)
+client.on("message", commandTarkov)
 client.on("message", commandLostark)
 client.on('message', message => {
 
