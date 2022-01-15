@@ -1,5 +1,10 @@
 module.exports = async function (message) { 
       
+      if (message.content === '!map2') {  
+            message.channel.send(`https://lostarkonline.fr/map/?zoom=1.4&x=-384.5&y=512`)}; 
+      if (message.content === '!build') {  
+            message.channel.send(`https://lostarkcodex.com/us/skillbuilds/`)}; 
+
       /** CLasses */
 
       /** Guerriers */
