@@ -4,7 +4,7 @@ const Discord = require('discord.js');
 const {Client, Collection} = require('discord.js');
 const client = new Client();
 const commandTarkov = require('./commandes/Escape From Tarkov')
-const commandLostark = require('./commandes/Lost Ark')
+
 client.commands = new Collection()
 require("dotenv").config()
 
@@ -25,7 +25,7 @@ client.once('ready', () => {
 });
 
 client.on("message", commandTarkov)
-client.on("message", commandLostark)
+
 client.on('message', message => {
 
 /** Clear */
