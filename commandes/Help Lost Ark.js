@@ -14,7 +14,7 @@ module.exports = {
           .setThumbnail(message.author.avatarURL({ dynamic: true, size: 256 }))
           .addFields(          
             { name: '\u200b', value: '**!clear**᲼( supprimer messages )᲼᲼᲼᲼᲼᲼\u200b᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼', inline: false },
-            { name: '<:lostark:931723577269571773>   **Lost Ark** :', value: '!map', inline: false },
+            { name: '<:lost:931742352823955486>   **Lost Ark** :', value: '!map', inline: false },
             { name: '\u200b', value:'● **Classes** :', inline: false},   
             { name: '<:guerriers:931734212980138025>  **Guerriers** :' , value: '  !berserker, !paladin, !pistolancier.', inline: false },
             { name: '<:fighters:931735233961807913>  **Martialistes** :', value: '  !essentialiste, !elementaliste, !pugiliste, !spirite.', inline: false },
