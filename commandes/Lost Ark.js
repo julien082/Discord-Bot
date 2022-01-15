@@ -21,21 +21,21 @@ module.exports = async function (message) {
             message.channel.send(`https://www.youtube.com/watch?v=jhV2bsy5_U0`)};  
       /** Tireurs */
       if (message.content === '!fusiliere') {  
-            message.channel.send(`https://www.youtube.com/watch?v=TZfZBxYG71c`)};
+            message.channel.send(`https://www.youtube.com/watch?v=R5iQ32XxRKo`)};
       if (message.content === '!artilleur') {  
-            message.channel.send(`https://www.youtube.com/watch?v=I4DZpv82sFw`)}; 
+            message.channel.send(`https://www.youtube.com/watch?v=VkGSg9O-stc`)}; 
       if (message.content === '!franctireur') {  
-            message.channel.send(`https://www.youtube.com/watch?v=yiyIMmgh1mI`)}; 
+            message.channel.send(`https://www.youtube.com/watch?v=EesjAG3gpd8`)}; 
       if (message.content === '!salve') {  
-            message.channel.send(`https://www.youtube.com/watch?v=jhV2bsy5_U0`)};  
+            message.channel.send(`https://www.youtube.com/watch?v=ZSO0V_OIUPQ&t=3s`)};  
       /** Mages */
       if (message.content === '!barde') {  
-            message.channel.send(`https://www.youtube.com/watch?v=TZfZBxYG71c`)};
+            message.channel.send(`https://www.youtube.com/watch?v=SgpU3C_GdjY`)};
       if (message.content === '!sorciere') {  
-            message.channel.send(`https://www.youtube.com/watch?v=I4DZpv82sFw`)}; 
+            message.channel.send(`https://www.youtube.com/watch?v=apaNS4MDf18`)}; 
       /** Assassins */
-      if (message.content === '!essensialiste') {  
-            message.channel.send(`https://www.youtube.com/watch?v=TZfZBxYG71c`)};
-      if (message.content === '!elementiste') {  
-            message.channel.send(`https://www.youtube.com/watch?v=I4DZpv82sFw`)}; 
+      if (message.content === '!demoniste') {  
+            message.channel.send(`https://www.youtube.com/watch?v=XzLU1phP7WY`)};
+      if (message.content === '!sanguelame') {  
+            message.channel.send(`https://www.youtube.com/watch?v=AnAMIuh6wqo`)}; 
     }
