@@ -17,10 +17,10 @@ module.exports = {
             { name: '<:lostark:931723577269571773>   **Lost Ark** :', value: '!map', inline: false },
             { name: '\u200b', value:'● **Classes** :', inline: false},   
             { name: '<:guerriers:931734212980138025>  **Guerriers** :' , value: '  !berserker, !paladin, !pistolancier.', inline: false },
-            { name: '<:weapon:861047801239830539>  **Martialistes** :', value: '  !essentialiste, !elementaliste, !pugiliste, !spirite.', inline: false },
-            { name: '<:rifle:861050143813926943>   **Tireurs** :', value: '  !fusiliere, !artilleur, !franctireur, !salve.', inline: false },
-            { name: '<:sniper:861047828607270922>  **Mages** :', value: '  !barde, !sorciere.', inline: false },
-            { name: '<:assassins:931731189696454727>  **Assassins** :', value: '  !demoniste, !sanguelame.', inline: false }
+            { name: '<:fighters:931735233961807913>  **Martialistes** :', value: '  !essentialiste, !elementaliste, !pugiliste, !spirite.', inline: false },
+            { name: '<:tireurs:931737222552645674>   **Tireurs** :', value: '  !fusiliere, !artilleur, !franctireur, !salve.', inline: false },
+            { name: '<:mages:931737244212011078>  **Mages** :', value: '  !barde, !sorciere.', inline: false },
+            { name: '<:assassins:931737256367124500>  **Assassins** :', value: '  !demoniste, !sanguelame.', inline: false }
             )
           message.channel.send(embed)
           }
