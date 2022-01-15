@@ -14,7 +14,7 @@ module.exports = {
           .setThumbnail(message.author.avatarURL({ dynamic: true, size: 256 }))
           .addFields(          
             { name: '\u200b', value: '**!clear**᲼( supprimer messages )᲼᲼᲼᲼᲼᲼\u200b᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼', inline: false },
-            { name: '<:lostark:931723069599395880>  **Lost Ark** :', value: '!berserker, !paladin, !pistolancier, !essentialiste, !elementaliste, !pugiliste, !spirite, !fusiliere, !artilleur, !franctireur, !salve, !barde, !sorciere, !demoniste, !sanguelame', inline: false },
+            { name: '<:lostark:931723577269571773>  **Lost Ark** :', value: '!berserker, !paladin, !pistolancier, !essentialiste, !elementaliste, !pugiliste, !spirite, !fusiliere, !artilleur, !franctireur, !salve, !barde, !sorciere, !demoniste, !sanguelame', inline: false },
           )
           message.channel.send(embed)
           }
