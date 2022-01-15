@@ -21,19 +21,6 @@ module.exports = {
             { name: '<:rifle:861050143813926943>  **Semi-Auto** :', value: '  !adar, !fal, !sr, !tx.', inline: false },
             { name: '<:sniper:861047828607270922>  **Snipes** :', value: '  !sks, !svds, !m1a, !m700, !t5000, !rsass, !mk18.', inline: false },
           )
-          },
-          name: 'lostark',
-          description: 'commandes bot',
-          execute( message, args ){
-            const embed = new MessageEmbed2()  
-                .setColor('#FDFEFE')
-                .setTitle('<a:commandes:861037555301220413>᲼**Commandes :**')
-                .attachFiles(diceImg)
-                .setImage('attachment://Killa.png')
-                .setThumbnail(message.author.avatarURL({ dynamic: true, size: 256 }))
-                .addFields(             
-                  { name: '<:tarkov:861045088900743228>  **Lost Ark** :', value: '!blade', inline: false },
-                )
           message.channel.send(embed)
           }
         }
