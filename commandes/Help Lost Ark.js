@@ -1,6 +1,6 @@
 const {  MessageEmbed } = require('discord.js')
 const {MessageAttachment} = require ('discord.js')
-const diceImg = new MessageAttachment ('./Images/lostark.png')
+const diceImg = new MessageAttachment ('./Images/km.png')
 
 module.exports = {
     name: 'lostark',
@@ -10,7 +10,7 @@ module.exports = {
           .setColor('#FDFEFE')
           .setTitle('<a:commandes:861037555301220413>᲼**Commandes :**')
           .attachFiles(diceImg)
-          .setImage('attachment://lostark.png')
+          .setImage('attachment://km.png')
           .setThumbnail(message.author.avatarURL({ dynamic: true, size: 256 }))
           .addFields(          
             { name: '\u200b', value: '**!clear**᲼( supprimer messages )᲼᲼᲼᲼᲼᲼\u200b᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼', inline: false },
