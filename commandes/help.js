@@ -24,4 +24,20 @@ module.exports = {
           message.channel.send(embed)
           }
         }
-    
+        module.exports = {
+          name: 'lostark',
+          description: 'commandes bot',
+          execute( message, args ){
+            const embed = new MessageEmbed()  
+                .setColor('#FDFEFE')
+                .setTitle('<a:commandes:861037555301220413>᲼**Commandes :**')
+                .attachFiles(diceImg)
+                .setImage('attachment://Killa.png')
+                .setThumbnail(message.author.avatarURL({ dynamic: true, size: 256 }))
+                .addFields(             
+                  { name: '<:tarkov:861045088900743228>  **Lost Ark** :', value: '!blade', inline: false },
+                )
+                message.channel.send(embed)
+                }
+              }
+          
