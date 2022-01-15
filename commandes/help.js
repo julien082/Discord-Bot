@@ -20,15 +20,12 @@ module.exports = {
             { name: '<:weapon:861047801239830539>  **P-Mitrailleurs** :', value: '  !mpx, !mp5, !mp7, !p90, !vector.', inline: false },
             { name: '<:rifle:861050143813926943>  **Semi-Auto** :', value: '  !adar, !fal, !sr, !tx.', inline: false },
             { name: '<:sniper:861047828607270922>  **Snipes** :', value: '  !sks, !svds, !m1a, !m700, !t5000, !rsass, !mk18.', inline: false },
-          )
-          message.channel.send(embed)
-          }
-        }
+
         module.exports = {
           name: 'lostark',
           description: 'commandes bot',
           execute( message, args ){
-            const embed = new MessageEmbed()  
+            const embed = new MessageEmbed2()  
                 .setColor('#FDFEFE')
                 .setTitle('<a:commandes:861037555301220413>᲼**Commandes :**')
                 .attachFiles(diceImg)
@@ -40,4 +37,6 @@ module.exports = {
                 message.channel.send(embed)
                 }
               }
-          
+                    )
+          }
+        }
