@@ -7,7 +7,7 @@ module.exports = {
     description: 'commandes bot',
     execute( message, args ){
       const embed = new MessageEmbed()  
-          .setColor('#FDFEFE')
+          .setColor('#C95305')
           .setTitle('<a:commandes:861037555301220413>᲼**Commandes :**')
           .attachFiles(diceImg)
           .setImage('attachment://lostark.png')
