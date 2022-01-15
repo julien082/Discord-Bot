@@ -3,7 +3,7 @@ const {MessageAttachment} = require ('discord.js')
 const diceImg = new MessageAttachment ('./Images/Killa.png')
 
 module.exports = {
-    name: 'help',
+    name: 'lostark',
     description: 'commandes bot',
     execute( message, args ){
       const embed = new MessageEmbed()  
