@@ -13,7 +13,7 @@ module.exports = {
           .setImage('attachment://lostark.png')
           .setThumbnail(message.author.avatarURL({ dynamic: true, size: 256 }))
           .addFields(          
-            { name: '<:tarkov:861045088900743228>  **Lost Ark** :', value: '!blade, !demonic', inline: false },
+            { name: '<:lostark:865416964833935390>  **Lost Ark** :', value: '!blade, !demonic', inline: false },
           )
           message.channel.send(embed)
           }
