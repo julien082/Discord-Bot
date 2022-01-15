@@ -1,16 +1,16 @@
 const {  MessageEmbed } = require('discord.js')
 const {MessageAttachment} = require ('discord.js')
-const diceImg = new MessageAttachment ('./Images/km.png')
+const diceImg = new MessageAttachment ('./Images/lostark.png')
 
 module.exports = {
-    name: 'lostark',
+    name: 'lost',
     description: 'commandes bot',
     execute( message, args ){
       const embed = new MessageEmbed()  
           .setColor('#FDFEFE')
           .setTitle('<a:commandes:861037555301220413>᲼**Commandes :**')
           .attachFiles(diceImg)
-          .setImage('attachment://km.png')
+          .setImage('attachment://lostark.png')
           .setThumbnail(message.author.avatarURL({ dynamic: true, size: 256 }))
           .addFields(          
             { name: '\u200b', value: '**!clear**᲼( supprimer messages )᲼᲼᲼᲼᲼᲼\u200b᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼', inline: false },
@@ -18,9 +18,9 @@ module.exports = {
             { name: '\u200b', value:'● **Classes** :', inline: false},   
             { name: '<:guerriers:931734212980138025>  **Guerriers** :' , value: '  !berserker, !paladin, !pistolancier.', inline: false },
             { name: '<:fighters:931735233961807913>  **Martialistes** :', value: '  !essentialiste, !elementaliste, !pugiliste, !spirite.', inline: false },
-            { name: '<:rifle:861050143813926943>   **Tireurs** :', value: '  !fusiliere, !artilleur, !franctireur, !salve.', inline: false },
-            { name: '<:sniper:861047828607270922>  **Mages** :', value: '  !barde, !sorciere.', inline: false },
-            { name: '<:assassins:931731189696454727>  **Assassins** :', value: '  !demoniste, !sanguelame.', inline: false }
+            { name: '<:tireurs:931737222552645674>   **Tireurs** :', value: '  !fusiliere, !artilleur, !franctireur, !salve.', inline: false },
+            { name: '<:mages:931737244212011078>  **Mages** :', value: '  !barde, !sorciere.', inline: false },
+            { name: '<:assassins:931737256367124500>  **Assassins** :', value: '  !demoniste, !sanguelame.', inline: false }
             )
           message.channel.send(embed)
           }
