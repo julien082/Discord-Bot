@@ -1,5 +1,5 @@
 module.exports = async function (message) { 
       
-    if (message.content === '!lost') {  
+    if (message.content === '!lostlml') {  
           message.channel.send(`pouette`)}; 
     }
