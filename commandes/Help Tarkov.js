@@ -13,7 +13,7 @@ module.exports = {
           .setImage('attachment://Killa.png')
           .setThumbnail(message.author.avatarURL({ dynamic: true, size: 256 }))
           .addFields(
-            { name: '\u200b', value: '**!clear**᲼( supprimer messages )᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼\u200b!lost (commandes Lost Ark)᲼᲼᲼᲼᲼\u200b᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼', inline: false },              
+            { name: '\u200b', value: '**!clear**᲼( supprimer messages )᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼\u200b!lost (commandes Lost Ark)᲼᲼᲼᲼᲼᲼\u200b᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼', inline: false },              
             { name: '<:tarkov:861045088900743228>  **Tarkov** :', value: '!film.᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼ !patch, !map, !quest, !ammo, !key, !ledx, !graphic, !scav, !modding, !postfx.', inline: false },
             { name: '\u200b', value:'● **Armes** :', inline: false},
             { name: '<:assaut:861054281276719125>  **Assauts** :' , value: '  !m4, !hk, !mk, !rpk, !ak, !akm, !akms, !ak101, !ak103, !vepr, !dt, !val.', inline: false },
