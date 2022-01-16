@@ -13,7 +13,7 @@ module.exports = {
           .setImage('attachment://lostark.png')
           .setThumbnail(message.author.avatarURL({ dynamic: true, size: 256 }))
           .addFields(          
-            { name: '\u200b', value: '**!clear**᲼( supprimer messages )᲼᲼᲼᲼᲼᲼\u200b᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼', inline: false },
+            { name: '\u200b', value: '**!clear**᲼( supprimer messages )᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼\u200b**!help**᲼(commandes Escape From Tarkov)᲼᲼᲼᲼᲼᲼\u200b᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼', inline: false },
             { name: '<:lost:931742352823955486>   **Lost Ark** :', value: '!map2, !build, !gameplay (video toutes les classes).', inline: false },
             { name: '\u200b', value:'● **Classes** :', inline: false},   
             { name: '<:guerriers:931734212980138025>  **Guerriers** :' , value: '  !berserker (nul), !paladin, !pistolancier.', inline: false },
