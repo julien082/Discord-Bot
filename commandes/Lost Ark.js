@@ -16,7 +16,7 @@ module.exports = async function (message) {
             message.channel.send(`https://www.youtube.com/watch?v=zMHewpt6DuM`)}; 
       
       /**Martialistes */
-      if (message.content === '!essensialiste') {  
+      if (message.content === '!essentialiste') {  
             message.channel.send(`https://www.youtube.com/watch?v=TZfZBxYG71c`)};
       if (message.content === '!elementiste') {  
             message.channel.send(`https://www.youtube.com/watch?v=I4DZpv82sFw`)}; 
@@ -43,4 +43,19 @@ module.exports = async function (message) {
             message.channel.send(`https://www.youtube.com/watch?v=XzLU1phP7WY`)};
       if (message.content === '!sanguelame') {  
             message.channel.send(`https://www.youtube.com/watch?v=AnAMIuh6wqo`)}; 
+      /** Pas Dispo */
+      if (message.content === '!destructeur') {  
+            message.channel.send(`https://www.youtube.com/watch?v=my1mlgjNXuQ`)};
+      if (message.content === '!lanciere') {  
+            message.channel.send(`https://www.youtube.com/watch?v=wGs6RIcVKMM`)}; 
+      if (message.content === '!machiniste') {  
+            message.channel.send(`https://www.youtube.com/watch?v=lmsXXc7WzHs`)}; 
+      if (message.content === '!arcaniste') {  
+            message.channel.send(`https://www.youtube.com/watch?v=6oXB7Cxm5JM`)};
+      if (message.content === '!invocatrice') {  
+            message.channel.send(`https://www.youtube.com/watch?v=yO35t_nvz34`)}; 
+      if (message.content === '!faucheuse') {  
+            message.channel.send(`https://www.youtube.com/watch?v=CWqVheKN3Qw`)}; 
+      if (message.content === '!artiste') {  
+            message.channel.send(`https://www.youtube.com/watch?v=Awa9VkYdWlY`)};  
     }
