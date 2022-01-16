@@ -6,6 +6,8 @@ module.exports = async function (message) {
             message.channel.send(`https://lostarkcodex.com/us/skillbuilds/`)}; 
 
       /** CLasses */
+      if (message.content === '!gameplay') {  
+            message.channel.send(`https://www.youtube.com/watch?v=D2VWzVI6PQI&list=PL9qPSTvySyd4CstpXgN8oIS1lerP2F2h2&index=1`)}; 
 
       /** Guerriers */
       if (message.content === '!berserker') {  
