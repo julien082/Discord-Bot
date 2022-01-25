@@ -21,7 +21,7 @@ module.exports = {
             { name: '<:tireurs:931737222552645674>   **Tireurs** :', value: '  !fusiliere, !artilleur, !franctireur, !salve.', inline: false },
             { name: '<:mages:931737244212011078>  **Mages** :', value: '  !barde (Support), !sorciere.', inline: false },
             { name: '<:assassins:931737256367124500>  **Assassins** :', value: '  !demoniste, !blade (Sanguelame).', inline: false },
-            { name: '<:triste:932109428294045776>  **Special Cruchot (pas dispo):** :', value: '  !destructeur (Tank), !lanciere, !machiniste (Scooter), !arcaniste, !invocatrice, !faucheuse, !artiste.', inline: false }
+            { name: '<:triste:932109428294045776>  **Special Cruchot (pas dispo):** :', value: '  !destructeur (Tank), !lanciere, !scooter (Machiniste), !arcaniste, !invocatrice, !faucheuse, !artiste.', inline: false }
             )
           message.channel.send(embed)
           }
