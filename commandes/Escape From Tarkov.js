@@ -15,7 +15,10 @@ The Lab : <https://escapefromtarkov-fr.gamepedia.com/Labo>
 Woods : <https://escapefromtarkov-fr.gamepedia.com/Bois>
 Military : <https://escapefromtarkov-fr.gamepedia.com/Base_militaire>
 Lighthouse : <https://escapefromtarkov.fandom.com/fr/wiki/Phare>
-==> En anglais en attendant: <https://escapefromtarkov.fandom.com/wiki/Lighthouse>`)}; 
+==> En anglais en attendant: <https://escapefromtarkov.fandom.com/wiki/Lighthouse>
+Maps Détaillées: <https://www.gamemaps.co.uk/game/tarkov>
+
+Map intéractive Lost Ark: <https://lostarkonline.fr/map/?zoom=1.4&x=-384.5&y=512>`)}; 
       if (message.content === '!quest') {  
             message.channel.send(`https://media.discordapp.net/attachments/776801862778093568/798907782635716658/Objets_de_quetes.jpg?width=1346&height=676`)}; 
       if (message.content === '!ammo') {  
