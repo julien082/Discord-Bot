@@ -1,7 +1,5 @@
 module.exports = async function (message) { 
-      
-      if (message.content === '!map2') {  
-            message.channel.send(`https://lostarkonline.fr/map/?zoom=1.4&x=-384.5&y=512`)}; 
+       
       if (message.content === '!build') {  
             message.channel.send(`https://lostarkcodex.com/us/skillbuilds/`)}; 
 
@@ -50,7 +48,7 @@ module.exports = async function (message) {
             message.channel.send(`https://www.youtube.com/watch?v=my1mlgjNXuQ`)};
       if (message.content === '!lanciere') {  
             message.channel.send(`https://www.youtube.com/watch?v=wGs6RIcVKMM`)}; 
-      if (message.content === '!machiniste') {  
+      if (message.content === '!scooter') {  
             message.channel.send(`https://www.youtube.com/watch?v=lmsXXc7WzHs`)}; 
       if (message.content === '!arcaniste') {  
             message.channel.send(`https://www.youtube.com/watch?v=6oXB7Cxm5JM`)};
