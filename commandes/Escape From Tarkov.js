@@ -7,8 +7,8 @@ module.exports = async function (message) {
       if (message.content === '!key') {  
         message.channel.send(`https://prnt.sc/r9dlgs https://prnt.sc/10o12ur`)}; 
       if (message.content === '!map') {  
-        message.channel.send(`**Escape From Tarkov :**
-
+        message.channel.send(`
+**Escape From Tarkov :**
 Factory : <https://escapefromtarkov-fr.gamepedia.com/Usine>
 Customs : <https://escapefromtarkov-fr.gamepedia.com/Douanes>
 Interchange : <https://escapefromtarkov-fr.gamepedia.com/%C3%89changeur>
@@ -21,7 +21,6 @@ Lighthouse : <https://escapefromtarkov.fandom.com/fr/wiki/Phare>
 Maps Détaillées : <https://www.gamemaps.co.uk/game/tarkov>
 
 **Lost Ark :**
-
 Map intéractive : <https://lostarkonline.fr/map/?zoom=1.4&x=-384.5&y=512>`)}; 
       if (message.content === '!quest') {  
             message.channel.send(`https://media.discordapp.net/attachments/776801862778093568/798907782635716658/Objets_de_quetes.jpg?width=1346&height=676`)}; 
