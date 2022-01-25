@@ -43,7 +43,7 @@ module.exports = async function (message) {
       /** Assassins */
       if (message.content === '!demoniste') {  
             message.channel.send(`https://www.youtube.com/watch?v=XzLU1phP7WY`)};
-      if (message.content === '!sanguelame') {  
+      if (message.content === '!blade') {  
             message.channel.send(`https://www.youtube.com/watch?v=AnAMIuh6wqo`)}; 
       /** Pas Dispo */
       if (message.content === '!destructeur') {  
