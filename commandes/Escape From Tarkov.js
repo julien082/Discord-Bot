@@ -21,7 +21,7 @@ Lighthouse : <https://escapefromtarkov.fandom.com/fr/wiki/Phare>
 Maps Détaillées : <https://www.gamemaps.co.uk/game/tarkov>
 
 **Lost Ark :**
-Map intéractive : <https://lostarkonline.fr/map/?zoom=1.4&x=-384.5&y=512>`)}; 
+Map intéractive : <https://tool.lostarkonline.fr/map?zoom=1.4&x=-384.5&y=512>`)}; 
       if (message.content === '!quest') {  
             message.channel.send(`https://media.discordapp.net/attachments/776801862778093568/798907782635716658/Objets_de_quetes.jpg?width=1346&height=676`)}; 
       if (message.content === '!ammo') {  

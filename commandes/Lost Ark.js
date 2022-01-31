@@ -1,7 +1,12 @@
 module.exports = async function (message) { 
        
       if (message.content === '!build') {  
+            message.channel.send(`https://tool.lostarkonline.fr/builds`)}; 
+      if (message.content === '!build2') {  
             message.channel.send(`https://lostarkcodex.com/us/skillbuilds/`)}; 
+      if (message.content === '!gemmes') {  
+            message.channel.send(`https://tool.lostarkonline.fr/gem`)}; 
+      
 
       /** CLasses */
       if (message.content === '!gameplay') {  
