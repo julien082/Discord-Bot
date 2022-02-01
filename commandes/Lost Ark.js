@@ -4,8 +4,8 @@ module.exports = async function (message) {
             message.channel.send(`https://lostarkonline.fr/guides/`)}; 
       if (message.content === '!build') {  
             message.channel.send(`
-**Build FR** : <https://tool.lostarkonline.fr/builds>
-**Build Monde** : <https://lostarkcodex.com/us/skillbuilds/>
+**Builds FR** : <https://tool.lostarkonline.fr/builds>
+**Builds Monde** : <https://lostarkcodex.com/us/skillbuilds/>
 **Calculateur De Gemmes** : <https://tool.lostarkonline.fr/gem>`)}; 
 
       if (message.content === '!donjon') {  
