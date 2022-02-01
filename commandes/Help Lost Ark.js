@@ -14,7 +14,7 @@ module.exports = {
           .setThumbnail(message.author.avatarURL({ dynamic: true, size: 256 }))
           .addFields(          
             { name: '\u200b', value: '**!clear**᲼( supprimer messages )᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼\u200b**!help**᲼( commandes Escape From Tarkov )᲼᲼᲼᲼᲼᲼\u200b᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼', inline: false },
-            { name: '<:lost:931742352823955486>   **Lost Ark** :', value: '!map,  !gameplay (video toutes les classes). \u200b᲼᲼᲼᲼!site, !guides !build, !build2, !gemmes, !gardien, !donjon, !raid, !raidhl.', inline: false },
+            { name: '<:lost:931742352823955486>   **Lost Ark** :', value: '!map,  !gameplay (video toutes les classes). ᲼᲼᲼᲼\u200b!site, !guides !build, !build2, !gemmes, !gardien, !donjon, !raid, !raidhl.', inline: false },
             { name: '\u200b', value:'● **Classes** :', inline: false},   
             { name: '<:guerriers:931734212980138025>  **Guerriers** :' , value: '  !berserker, !paladin (Support), !pistolancier (Tank).', inline: false },
             { name: '<:fighters:931735233961807913>  **Martialistes** :', value: '  !essentialiste, !elementiste, !pugiliste, !spirite.', inline: false },
