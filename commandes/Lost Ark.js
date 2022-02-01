@@ -6,6 +6,16 @@ module.exports = async function (message) {
             message.channel.send(`https://lostarkcodex.com/us/skillbuilds/`)}; 
       if (message.content === '!gemmes') {  
             message.channel.send(`https://tool.lostarkonline.fr/gem`)}; 
+
+      if (message.content === '!donjon') {  
+            message.channel.send(`https://lostarkonline.fr/donjon-des-abysses/`)}; 
+      if (message.content === '!raid') {  
+            message.channel.send(`https://lostarkonline.fr/raid-des-abysses/`)}; 
+      if (message.content === '!gardien') {  
+            message.channel.send(`https://lostarkonline.fr/raid-de-gardiens/`)}; 
+      if (message.content === '!raidhl') {  
+            message.channel.send(`https://lostarkonline.fr/raid-des-legions/`)}; 
+
       
 
       /** CLasses */
