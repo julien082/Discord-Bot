@@ -3,11 +3,10 @@ module.exports = async function (message) {
       if (message.content === '!guides') {  
             message.channel.send(`https://lostarkonline.fr/guides/`)}; 
       if (message.content === '!build') {  
-            message.channel.send(`https://tool.lostarkonline.fr/builds`)}; 
-      if (message.content === '!build2') {  
-            message.channel.send(`https://lostarkcodex.com/us/skillbuilds/`)}; 
-      if (message.content === '!gemmes') {  
-            message.channel.send(`https://tool.lostarkonline.fr/gem`)}; 
+            message.channel.send(`
+**Build FR** : <https://tool.lostarkonline.fr/builds>
+**Build Monde** : <https://lostarkcodex.com/us/skillbuilds/>
+**Calculateur De Gemmes** : <https://tool.lostarkonline.fr/gem>`)}; 
 
       if (message.content === '!donjon') {  
             message.channel.send(`https://lostarkonline.fr/donjon-des-abysses/`)}; 
