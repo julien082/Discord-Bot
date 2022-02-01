@@ -1,5 +1,7 @@
 module.exports = async function (message) { 
        
+      if (message.content === '!guides') {  
+            message.channel.send(`https://lostarkonline.fr/guides/`)}; 
       if (message.content === '!build') {  
             message.channel.send(`https://tool.lostarkonline.fr/builds`)}; 
       if (message.content === '!build2') {  
