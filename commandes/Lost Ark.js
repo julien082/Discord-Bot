@@ -6,7 +6,7 @@ module.exports = async function (message) {
             <https://lost-ark.maxroll.gg/>`)}; 
       if (message.content === '!marchand') {  
             message.channel.send(`
-Tous ces marchands viennent à ces horaires pour une durée de 25 minutes:
+**Tous ces marchands viennent à ces horaires pour une durée de 25 minutes**:
 
 **Lucas** (Yudia), **Mac** (Anich), **Jeffrey** (Silensierra), **Morris** (Luttéran Orriental) and **Dorella** (Feiton).
 - Horaires: 1:30, 4:30, 5:30, 7:30, 8:30, 11:30 (AM and PM).
@@ -17,7 +17,7 @@ Tous ces marchands viennent à ces horaires pour une durée de 25 minutes:
 **Ben** (Rethramis), **Peter** (Bern-Nord) and **Laitir** (Yorn).
 - Horaires: 3:30, 4:30, 6:30, 7:30, 10:30, 12:30 (AM and PM).
             
-Localisations: 
+**Localisations**: 
             
 **Burt**: <https://lostarkcodex.com/us/npc/80003/>
 **Morris**: <https://lostarkcodex.com/fr/npc/80018/>`)}; 
