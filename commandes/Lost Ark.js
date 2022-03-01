@@ -2,8 +2,9 @@ module.exports = async function (message) {
        
       if (message.content === '!site') {  
             message.channel.send(`
-            <https://papunika.com/>,
-            <https://lost-ark.maxroll.gg/>`)}; 
+<https://papunika.com/>
+<https://lost-ark.maxroll.gg/>
+<https://lostarkonline.fr/>`)}; 
       if (message.content === '!marchand') {  
             message.channel.send(`
 **Tous ces marchands viennent à ces horaires pour une durée de 25 minutes**:
