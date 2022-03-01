@@ -10,17 +10,17 @@ module.exports = async function (message) {
 **Tous ces marchands viennent à ces horaires pour une durée de 25 minutes**:
 
 **Lucas** (Yudia), **Mac** (Anich), **Jeffrey** (Silensierra), **Morris** (Luttéran Orriental) and **Dorella** (Feiton).
-- Horaires: 1:30, 4:30, 5:30, 7:30, 8:30, 11:30 (AM and PM).
+- Horaires: 1:30, 4:30, 5:30, 7:30, 8:30, 11:30 (Matin et Après-midi).
 
 **Malone** (Luteran Occidental), **Burt** (Luteran Orriental), **Oliver** (Tortoyk), **Nox** (Artheline), **Aricer** (Rohendel) and **Rayni** (Punika).
-- Horaires: 2:30, 5:30, 6:30, 8:30, 9:30, 12:30 (AM and PM).
+- Horaires: 2:30, 5:30, 6:30, 8:30, 9:30, 12:30 (Matin et Après-midi).
 
 **Ben** (Rethramis), **Peter** (Bern-Nord) and **Laitir** (Yorn).
-- Horaires: 3:30, 4:30, 6:30, 7:30, 10:30, 12:30 (AM and PM).
+- Horaires: 3:30, 4:30, 6:30, 7:30, 10:30, 12:30 (Matin et Après-midi).
             
 **Localisations**: 
             
-**Burt**: <https://lostarkcodex.com/us/npc/80003/>
+**Burt**: https://prnt.sc/x9fLovUXxyuA
 **Morris**: <https://lostarkcodex.com/fr/npc/80018/>`)}; 
 
       if (message.content === '!guide') {  
