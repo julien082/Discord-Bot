@@ -45,21 +45,27 @@ Update:
       if (message.content === '!m4') {  
             message.channel.send(`https://prnt.sc/1gptd1y ~280 000₽`)};
       if (message.content === '!hk') {  
-            message.channel.send(`https://prnt.sc/1gptr9r ~250 000₽`)};
+            message.channel.send(`https://prnt.sc/1gptr9r ~250 000₽`)};  
+      if (message.content === '!g28') {  
+            message.channel.send(`pouette`)};
       if (message.content === '!mk') {  
             message.channel.send(`https://prnt.sc/1gprb7r ~300 000₽ https://prnt.sc/1h3u6lj ~200 000₽`)};
       if (message.content === '!ak') {  
-            message.channel.send(`https://prnt.sc/1gpppzw ~170 000₽`)};
+            message.channel.send(`https://prnt.sc/26j6qiv ~220 000₽ https://prnt.sc/26j6qr3 ~190 000₽`)};
       if (message.content === '!akm') {  
-            message.channel.send(`https://prnt.sc/xtcnyk`)};
+            message.channel.send(`https://prnt.sc/26j6plh ~230 000₽`)};
       if (message.content === '!akms') {  
             message.channel.send(`https://prnt.sc/xtd5f2`)};
       if (message.content === '!ak101') {  
-            message.channel.send(`https://prnt.sc/xtcmwd`)};
+            message.channel.send(`https://prnt.sc/26ih47g ~280 000₽`)};
       if (message.content === '!ak103') {  
             message.channel.send(`https://prnt.sc/13p32ym`)};
       if (message.content === '!rpk') {  
-            message.channel.send(`https://prnt.sc/1gptxj0 ~140 000₽`)};
+            message.channel.send(`https://prnt.sc/1gptxj0 ~140 000₽`)}; 
+      if (message.content === '!scar') {  
+            message.channel.send(`pouette`)};
+      if (message.content === '!tsm') {  
+            message.channel.send(`pouette`)};
       if (message.content === '!vepr') {  
             message.channel.send(`https://prnt.sc/q78tlr`)};
       if (message.content === '!dt') {  
@@ -83,7 +89,7 @@ Update:
       if (message.content === '!fal') {  
             message.channel.send(`https://prnt.sc/xtcp9q`)};
       if (message.content === '!sr') {  
-            message.channel.send(`https://prnt.sc/1i07j56 ~250 000₽`)};
+            message.channel.send(`https://prnt.sc/24tw83f ~260 000₽`)};
       if (message.content === '!tx') {  
             message.channel.send(`https://prnt.sc/1gpqw7e ~300 000₽`)};
         
