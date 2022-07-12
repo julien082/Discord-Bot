@@ -63,7 +63,7 @@ Update:
       if (message.content === '!rpk') {  
             message.channel.send(`https://prnt.sc/1gptxj0 ~140 000₽`)}; 
       if (message.content === '!scar') {  
-            message.channel.send(`pouette`)};
+            message.channel.send(`prout`)};
       if (message.content === '!tsm') {  
             message.channel.send(`pouette`)};
       if (message.content === '!vepr') {  
