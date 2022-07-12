@@ -47,7 +47,7 @@ Update:
       if (message.content === '!hk') {  
             message.channel.send(`https://prnt.sc/1gptr9r ~250 000₽`)};  
       if (message.content === '!g28') {  
-            message.channel.send(`pouette`)};
+            message.channel.send(`pouettes`)};
       if (message.content === '!mk') {  
             message.channel.send(`https://prnt.sc/1gprb7r ~300 000₽ https://prnt.sc/1h3u6lj ~200 000₽`)};
       if (message.content === '!ak') {  
