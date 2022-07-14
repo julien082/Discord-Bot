@@ -43,11 +43,11 @@ Update:
                   
                   
       if (message.content === '!m4') {  
-            message.channel.send(`https://prnt.sc/1gptd1y ~280 000₽`)};
+            message.channel.send(`https://prnt.sc/24tvjfh ~330 000₽`)};
       if (message.content === '!hk') {  
             message.channel.send(`https://prnt.sc/1gptr9r ~250 000₽`)};  
       if (message.content === '!g28') {  
-            message.channel.send(`pouettes`)};
+            message.channel.send(`https://prnt.sc/Mj_S9NGUBAwf`)};
       if (message.content === '!mk') {  
             message.channel.send(`https://prnt.sc/1gprb7r ~300 000₽ https://prnt.sc/1h3u6lj ~200 000₽`)};
       if (message.content === '!ak') {  
@@ -64,8 +64,7 @@ Update:
             message.channel.send(`https://prnt.sc/1gptxj0 ~140 000₽`)}; 
       if (message.content === '!scar') {  
             message.channel.send(`https://prnt.sc/8CRSEeLRFm2P Scar-L ~250 000₽ https://prnt.sc/TD9-9NIb33so Scar-H ~310 000₽`)};
-      if (message.content === '!tsm') {  
-            message.channel.send(`pouette`)};
+
       if (message.content === '!vepr') {  
             message.channel.send(`https://prnt.sc/q78tlr`)};
       if (message.content === '!dt') {  
@@ -74,15 +73,17 @@ Update:
             message.channel.send(`https://prnt.sc/vgwi3l`)};
         
       if (message.content === '!mp5') {  
-            message.channel.send(`https://prnt.sc/1gpsirf ~120 000₽`)};
+            message.channel.send(`https://prnt.sc/24tvra0 ~140 000₽`)};
       if (message.content === '!mp7') {  
             message.channel.send(`https://prnt.sc/xtd18r`)};
       if (message.content === '!mpx') {  
             message.channel.send(`https://prnt.sc/1gpsrgi ~160 000₽`)};
       if (message.content === '!p90') {  
-            message.channel.send(`https://prnt.sc/1rjuua5`)};
+            message.channel.send(`https://prnt.sc/26e2ixj ~220 000₽`)};
       if (message.content === '!vector') {  
-            message.channel.send(`https://prnt.sc/1rju7s5`)};
+            message.channel.send(`https://prnt.sc/1rju7s5`)};    
+      if (message.content === '!stm') {  
+            message.channel.send(`https://prnt.sc/YL-0EFbnB5Gm ~200 000₽`)};
         
       if (message.content === '!adar') {  
             message.channel.send(`http://prntscr.com/q4c3t6`)};
@@ -101,7 +102,7 @@ Update:
       if (message.content === '!m1a') {  
             message.channel.send(`https://prnt.sc/1gppvwg ~270 000₽`)};
       if (message.content === '!m700') {  
-            message.channel.send(`https://prnt.sc/1gpt6iu ~180 000₽`)};
+            message.channel.send(`https://prnt.sc/26ih4kk ~300 000₽`)};
       if (message.content === '!t5000') {  
             message.channel.send(`https://prnt.sc/t1thcp`)};
       if (message.content === '!rsass') {  
